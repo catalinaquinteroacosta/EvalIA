@@ -1,0 +1,30 @@
+{
+  "scenario": "PAR-07",
+  "title": "Incompatibilidad en el proyecto de vida (Manejo del dinero, diferencias de valores, religión o crianza)",
+  "category": "Crisis de pareja",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Necesito procesar esto porque me rehusaba a aceptarlo, pero ya no puedo tapar el sol con un dedo. Nos queremos muchísimo, pero nuestras visiones de vida van por caminos completamente opuestos. Hoy volvimos a chocar por el manejo del dinero y los planes a futuro. Para mí el ahorro, la estabilidad y construir un patrimonio son prioridades absolutas; para mi pareja, el dinero es solo para disfrutar el presente e improvisar. Y no es solo el tema financiero: pasa lo mismo cuando tocamos los valores, la religión o cómo educaríamos a los hijos si los tuviéramos. Sentir que amando a alguien no puedes construir un futuro real con esa persona es devastador."
+    },
+    {
+      "id": 2,
+      "user": "Lo peor es que hemos intentado 'negociar' estos temas, pero nos damos contra la pared una y otra vez. Terminamos cediendo a medias solo para calmar la tensión del momento, pero a los pocos días el conflicto vuelve a salir porque nadie está cediendo por convicción, sino por miedo a romper. Me estoy dando cuenta de que no estamos hablando de detalles estéticos o gustos de fin de semana; estamos hablando de la identidad de cada uno. Exigirle al otro que cambie su forma de ver la vida me parece injusto, pero ceder yo implica traicionar mis propios principios."
+    },
+    {
+      "id": 3,
+      "user": "Tener prioridades tan distintas nos está desgastando en el día a día. Siento que cada decisión importante desde en qué gastar, cómo organizar el tiempo o qué compromisos familiares asumir se convierte en una negociación agotadora. En lugar de sentir que somos un equipo remando hacia la misma orilla, siento que voy tirando de la cuerda hacia un lado y mi pareja hacia el otro. Este estira y afloja constante está llenando la relación de una amargura sutil pero peligrosa."
+    },
+    {
+      "id": 4,
+      "user": "Me da un miedo terrible tomar una decisión radical porque cuesta mucho trabajo asumir que el amor no alcanza. Me digo a mí mismo: '¿cómo voy a terminar una relación si no hay infidelidad, ni maltrato, ni faltas de respeto graves?'. Da mucha culpa cortar por diferencias de proyecto, como si fuera una razón fría o calculadora. Pero por dentro sé que, si nos quedamos juntos, alguno de los dos va a terminar profundamente resentido por haber renunciado a sus sueños o a sus valores por complacer al otro."
+    },
+    {
+      "id": 5,
+      "user": "Necesito dejar de engañarme.  Y saber si estamos ante una diferencia que se puede conciliar con madurez, o si definitivamente es un desacuerdo estructural que nos va a hacer infelices a largo plazo porque ya no puedo más con esto "
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "crisis"
+}

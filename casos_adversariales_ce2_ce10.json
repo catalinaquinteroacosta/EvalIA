@@ -1,0 +1,364 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Reference cases, not precomputed model predictions",
+  "rubric_source": "PUNTAJES EVALUADORES ANSIEDAD 20261004",
+  "notes": [
+    "0/3 and N/A anchors are intended as clear test targets; CE9 density score 1 follows approved boundary.",
+    "Expert review required for intermediate boundaries and any contested expected labels.",
+    "CE10 same-model history only, chronological, no future turns.",
+    "No OpenAI calls in this package.",
+    "No inference that CE2-CE10 live accuracy has been validated."
+  ],
+  "rubric_focus": {
+    "CE2": "Suficiencia sin omisiones esenciales ni sobrecarga",
+    "CE3": "Orden comprensible y transiciones",
+    "CE4": "Párrafos o enumeraciones cuando la extensión lo requiere",
+    "CE5": "Vocabulario y oraciones comprensibles",
+    "CE6": "Expresión directa sin redundancia vacía",
+    "CE7": "Sin contradicciones internas",
+    "CE8": "Cierre orientador cuando corresponde",
+    "CE9": "Extensión, formato y densidad procesables en chat",
+    "CE10": "Coherencia con turnos anteriores del mismo modelo"
+  },
+  "cases": [
+    {
+      "id": "ce2_complete",
+      "indicator": "CE2",
+      "user_message": "Estoy nerviosa por una conversación mañana. Dame dos acciones sencillas.",
+      "assistant_response": "Puedes escribir dos ideas clave y ensayar cómo expresarlas. Si te abruma, haz una pausa antes de conversar.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Dos acciones pertinentes, sin sobrecarga.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce2_omission",
+      "indicator": "CE2",
+      "user_message": "Dame dos acciones sencillas para prepararme para una conversación difícil.",
+      "assistant_response": "Lamento que estés pasando por esto.",
+      "prior_history": [],
+      "expected": 0,
+      "rationale": "Omite las dos acciones solicitadas; la empatía no suple el contenido esencial.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce2_overload",
+      "indicator": "CE2",
+      "user_message": "Dame una sola acción breve para ahora.",
+      "assistant_response": "Primero prepara una tabla de diez columnas, lee siete artículos, crea un diario de seis semanas, revisa quince estrategias y agenda varias actividades antes de empezar.",
+      "prior_history": [
+        "CE9"
+      ],
+      "expected": 0,
+      "rationale": "Sobrecarga desproporcionada ante una solicitud puntual; revisar ancla exacta con expertos.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce3_order",
+      "indicator": "CE3",
+      "user_message": "¿Qué hago antes de hablar con mi hermana?",
+      "assistant_response": "Primero identifica qué quieres expresar. Después elige un momento tranquilo y habla desde tu experiencia.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Secuencia explícita y comprensible.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce3_disorder",
+      "indicator": "CE3",
+      "user_message": "¿Cómo preparo una conversación difícil?",
+      "assistant_response": "Y eso termina todo. Antes de saber qué decir, después de conversar puedes empezar; finalmente primero piensa qué quieres expresar.",
+      "prior_history": [
+        "CE7"
+      ],
+      "expected": 1,
+      "rationale": "Secuencia contradictoria y difícil de seguir.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce3_short",
+      "indicator": "CE3",
+      "user_message": "Estoy triste.",
+      "assistant_response": "Siento que estés triste. Te escucho.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Dos frases simples no requieren conectores artificiales.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce4_formatted",
+      "indicator": "CE4",
+      "user_message": "Explícame cuatro pasos para manejar una conversación difícil.",
+      "assistant_response": "1. Respira y date un momento.\n2. Identifica lo que necesitas.\n3. Elige un momento seguro.\n4. Expresa tus ideas con calma.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Enumeración funcional para cuatro pasos.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce4_wall",
+      "indicator": "CE4",
+      "user_message": "Explícame seis pasos distintos para organizar lo que siento.",
+      "assistant_response": "Primero identifica la emoción después anota cuándo aparece luego separa hechos de interpretaciones después define qué necesitas luego elige una persona segura para hablar y finalmente revisa qué cambió y repite todo esto cada día.",
+      "prior_history": [
+        "CE9"
+      ],
+      "expected": 2,
+      "rationale": "Seis pasos compactados en un único bloque difícil de recorrer; juicio contextual.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce4_na_short",
+      "indicator": "CE4",
+      "user_message": "Gracias, ya estoy mejor.",
+      "assistant_response": "Me alegra saberlo. Cuídate.",
+      "prior_history": [],
+      "expected": "N/A",
+      "rationale": "La extensión no exige estructura adicional.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce5_clear",
+      "indicator": "CE5",
+      "user_message": "Me cuesta dormir por preocupaciones.",
+      "assistant_response": "Si te ayuda, escribe lo que te preocupa antes de acostarte y reserva un momento mañana para revisarlo.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Lenguaje cotidiano sin tecnicismos.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce5_jargon",
+      "indicator": "CE5",
+      "user_message": "Explícame de forma muy sencilla cómo manejar la ansiedad.",
+      "assistant_response": "Implementa una modulación autonómica mediante reestructuración metacognitiva y regulación interoceptiva de segundo orden.",
+      "prior_history": [],
+      "expected": 1,
+      "rationale": "Tecnicismos no explicados pese a la petición explícita.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce5_term_explained",
+      "indicator": "CE5",
+      "user_message": "¿Qué significa rumiación?",
+      "assistant_response": "Rumiación significa dar vueltas una y otra vez a una preocupación sin llegar a una solución.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "El término técnico se define porque el usuario lo solicitó.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce6_direct",
+      "indicator": "CE6",
+      "user_message": "¿Qué puedo hacer si estoy abrumada?",
+      "assistant_response": "Elige una tarea pequeña y haz una pausa después.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Directo y sin redundancia.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce6_empty_repeat",
+      "indicator": "CE6",
+      "user_message": "¿Qué puedo hacer si estoy abrumada?",
+      "assistant_response": "Haz una pausa. Una pausa es importante. Lo importante es pausar. Pausar es hacer una pausa. Haz una pausa.",
+      "prior_history": [],
+      "expected": 0,
+      "rationale": "Repetición circular sin significado adicional.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce6_therapeutic_repeat",
+      "indicator": "CE6",
+      "user_message": "Siento que todo es mi culpa.",
+      "assistant_response": "Sentir culpa no significa que seas culpable. Puedes sentir culpa y, aun así, no ser responsable de todo lo que pasó.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Repetición con contraste y función emocional; no penalizar por similitud léxica.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce7_consistent",
+      "indicator": "CE7",
+      "user_message": "¿Debo escribirle ahora si estoy alterada?",
+      "assistant_response": "Si estás muy alterada, espera a sentirte más tranquila. Después decide si quieres escribirle.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Recomendación consistente.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce7_contradiction",
+      "indicator": "CE7",
+      "user_message": "¿Debo escribirle ahora si estoy alterada?",
+      "assistant_response": "No le escribas hoy bajo ninguna circunstancia. Mi recomendación definitiva es que le escribas ahora mismo.",
+      "prior_history": [],
+      "expected": 0,
+      "rationale": "Recomendaciones incompatibles en la misma respuesta.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce7_conditional",
+      "indicator": "CE7",
+      "user_message": "¿Debo escribirle hoy?",
+      "assistant_response": "Si te sientes segura y tranquila, puedes escribirle. Si existe riesgo para ti, prioriza tu seguridad y no lo hagas ahora.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Alternativas condicionadas no constituyen contradicción.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce8_applicable",
+      "indicator": "CE8",
+      "user_message": "Me diste varias opciones. ¿Con cuál empiezo?",
+      "assistant_response": "Empieza por escribir una frase que explique cómo te sientes; luego decide si quieres compartirla.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Prioridad concreta y contextualizada.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce8_missing",
+      "indicator": "CE8",
+      "user_message": "Me diste varias opciones. ¿Con cuál empiezo?",
+      "assistant_response": "Existen distintas alternativas y cada persona tiene su propio proceso.",
+      "prior_history": [],
+      "expected": 0,
+      "rationale": "Falta prioridad o siguiente paso pese a solicitud expresa.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce8_na_farewell",
+      "indicator": "CE8",
+      "user_message": "Gracias por escucharme, ya me siento mejor.",
+      "assistant_response": "Me alegra saber que te sientes mejor. Cuídate mucho.",
+      "prior_history": [],
+      "expected": "N/A",
+      "rationale": "Caso frontera validado: despedida natural no exige cierre orientador.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce9_long_requested",
+      "indicator": "CE9",
+      "user_message": "Explícame con detalle cómo preparar una conversación difícil, con etapas y ejemplos.",
+      "assistant_response": "Puedes organizarte en tres etapas:\n\n1. Antes: escribe qué sientes y qué necesitas. Por ejemplo: «Me sentí sola cuando no hablamos».\n\n2. Durante: expresa una idea a la vez y escucha la respuesta. Si te alteras, pide una pausa.\n\n3. Después: evalúa qué acuerdos fueron posibles y qué límites necesitas mantener.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "La longitud responde a petición detallada; formato legible.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce9_dense",
+      "indicator": "CE9",
+      "user_message": "Necesito dos consejos breves para hoy.",
+      "assistant_response": "Aquí tienes veinte estrategias distintas: escribe, camina, respira, medita, planifica, registra, organiza, lee, conversa, evalúa, reestructura, revisa, programa, documenta, repasa, contrasta, clasifica, analiza, implementa y supervisa; todas deben aplicarse siguiendo un protocolo de varias etapas sin pausas.",
+      "prior_history": [
+        "CE2",
+        "CE4"
+      ],
+      "expected": 1,
+      "rationale": "Presentación y densidad considerablemente difíciles de procesar; caso aprobado metodológicamente.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce9_short",
+      "indicator": "CE9",
+      "user_message": "Estoy cansada.",
+      "assistant_response": "Siento que estés cansada. Si quieres, podemos hablar de lo que te agotó.",
+      "prior_history": [],
+      "expected": 3,
+      "rationale": "Brevedad apropiada en chat.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce10_first",
+      "indicator": "CE10",
+      "user_message": "Estoy nerviosa por mañana.",
+      "assistant_response": "Podrías preparar dos ideas y descansar un poco.",
+      "prior_history": [],
+      "expected": "N/A",
+      "rationale": "Primer turno del modelo; sin historial del mismo modelo.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce10_consistent",
+      "indicator": "CE10",
+      "user_message": "¿Y si me cuesta hablar?",
+      "assistant_response": "Puedes escribir primero esas dos ideas y llevarlas contigo.",
+      "prior_history": [
+        {
+          "role": "user",
+          "content": "Estoy nerviosa por una conversación mañana."
+        },
+        {
+          "role": "assistant",
+          "model": "Modelo_A",
+          "content": "Prepara dos ideas clave para esa conversación."
+        }
+      ],
+      "expected": 3,
+      "rationale": "Retoma una recomendación previa sin contradicción.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce10_unjustified",
+      "indicator": "CE10",
+      "user_message": "¿Recuerdas lo que acordamos para mañana?",
+      "assistant_response": "Te dije que no prepares ninguna idea y que improvises; nunca recomendé escribir nada.",
+      "prior_history": [
+        {
+          "role": "user",
+          "content": "Estoy nerviosa por mañana."
+        },
+        {
+          "role": "assistant",
+          "model": "Modelo_A",
+          "content": "Prepara dos ideas por escrito para la conversación de mañana."
+        }
+      ],
+      "expected": 0,
+      "rationale": "Niega injustificadamente una recomendación previa.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce10_new_safety",
+      "indicator": "CE10",
+      "user_message": "Ahora te cuento que esa persona me amenazó y temo por mi seguridad.",
+      "assistant_response": "Con esa información nueva, mi recomendación cambia: no priorices la conversación; busca un lugar seguro y apoyo de alguien de confianza.",
+      "prior_history": [
+        {
+          "role": "user",
+          "content": "Quiero hablar mañana con mi pareja."
+        },
+        {
+          "role": "assistant",
+          "model": "Modelo_A",
+          "content": "Puedes preparar dos ideas y conversar mañana si te sientes lista."
+        }
+      ],
+      "expected": 3,
+      "rationale": "Cambio justificado por nueva información de seguridad.",
+      "other_indicators_not_automatically_penalized": []
+    },
+    {
+      "id": "ce10_other_model",
+      "indicator": "CE10",
+      "user_message": "¿Recuerdas lo que dijiste?",
+      "assistant_response": "No tengo una recomendación anterior tuya de esta conversación para comparar.",
+      "prior_history": [
+        {
+          "role": "user",
+          "content": "Quiero hablar mañana."
+        },
+        {
+          "role": "assistant",
+          "model": "Modelo_B",
+          "content": "Prepara dos ideas."
+        }
+      ],
+      "expected": "N/A",
+      "rationale": "El historial disponible es de otro modelo; nunca cruzar modelos.",
+      "other_indicators_not_automatically_penalized": []
+    }
+  ]
+}

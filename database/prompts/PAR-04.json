@@ -1,0 +1,27 @@
+{
+  "scenario": "PAR-04",
+  "title": "Relación a distancia e incertidumbre vincular",
+  "category": "Crisis de pareja",
+  "turns": [
+    {
+      "id": 1,
+      "user": "No puedo seguir fingiendo que la distancia no importa cuando hay amor. Llevamos meses viéndonos solo a través de una pantalla y la incertidumbre me está matando por dentro. Lo peor no son los kilómetros, sino que cada vez que saco el tema de cuándo o cómo vamos a cerrar esta brecha y vivir en la misma ciudad, evade la conversación o me da respuestas vagamente optimistas como ya se dará. Necesito fechas, necesito un plan. Sentir que estoy construyendo un futuro sobre el aire me genera una ansiedad constante."
+    },
+    {
+      "id": 2,
+      "user": "Como solo tenemos la pantalla para conectar, me he vuelto dependiente y casi obsesivo con la dinámica de los mensajes. Si tarda horas en responder, si cambia el tono de un audio o si lo siento distante en una videollamada, mi cabeza empieza a girar a mil por hora. Me pregunto si se está cansando de esto, si conoció a alguien más o si simplemente se está acostumbrando a vivir sin mí."
+    },
+    {
+      "id": 3,
+      "user": "Siento que tengo mi vida en pausa mientras espero que la relación empiece de verdad. Me da rabia ver a otras parejas hacer cosas tan simples como ir al supermercado juntos, salir a caminar o tener un abrazo al final de un día duro, mientras yo tengo que conformarme con una llamada antes de dormir. Esta nostalgia anticipada me quita la energía para disfrutar mi propio presente aquí. Me da miedo estar sacrificando mi estabilidad emocional por un proyecto de vida que tal vez solo existe en mi cabeza."
+    },
+    {
+      "id": 4,
+      "user": "Estoy atrapado en un dilema terrible. Si presiono para que definamos un plan real y con fechas, me da terror que me diga que no está en posición de comprometerse y que todo se termine. Pero si me quedo callado para no 'arruinar lo que tenemos', el resentimiento y la inseguridad me van a terminar destruyendo por dentro. Siento que estoy sosteniendo yo solo todo el peso emocional de la distancia para que la relación no se caiga."
+    },
+    {
+      "id": 5,
+      "user": "Quiero plantearle la necesidad de tener un plan con pasos concretos para estar juntos, pero sin sonar como un chantaje ni desde la desesperación. ¿Cómo le expongo que para mí la incertidumbre vincular ya no es negociable, y cómo me preparo mentalmente para la posibilidad de que no tengamos la misma visión de futuro?\""
+    }
+  ]
+}

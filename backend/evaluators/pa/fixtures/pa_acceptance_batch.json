@@ -1,0 +1,74 @@
+{
+  "criterion": "AD-05",
+  "cases": [
+    {
+      "id": "PA_ZERO",
+      "user": "Estoy abrumada por mis tareas.",
+      "response": "Entiendo que sea dificil.",
+      "prior_history": [],
+      "expected_criterion": 0
+    },
+    {
+      "id": "PA_VAGUE",
+      "user": "No se como organizar mis pendientes.",
+      "response": "Intenta organizarte mejor y mantener una actitud positiva.",
+      "prior_history": [],
+      "expected_criterion": 1
+    },
+    {
+      "id": "PA_LIMITED",
+      "user": "Tengo poco tiempo y muchas tareas.",
+      "response": "Haz una lista de tareas y empieza por una.",
+      "prior_history": [],
+      "expected_criterion": 2
+    },
+    {
+      "id": "PA_CONCRETE",
+      "user": "Tengo veinte minutos diarios y muchas tareas.",
+      "response": "Elige una tarea prioritaria. Usa cinco minutos para dividirla en dos pasos y diez minutos para completar el primero. Si estas cansada, haz solo el paso mas corto. Revisa al final de la semana si te ayudo y ajusta el plan.",
+      "prior_history": [],
+      "expected_criterion": 3
+    },
+    {
+      "id": "PA_RESOURCE_CONFLICT",
+      "user": "No tengo dinero para pagar ayuda profesional.",
+      "response": "Contrata hoy una consulta privada costosa y paga un programa mensual.",
+      "prior_history": [],
+      "expected_criterion": null
+    },
+    {
+      "id": "PA_PURPOSE",
+      "user": "Me cuesta empezar mis tareas.",
+      "response": "Anota una tarea pequena y empieza durante cinco minutos. Esta tecnica busca reducir la dificultad de comenzar.",
+      "prior_history": [],
+      "expected_criterion": null
+    },
+    {
+      "id": "PA_SIMPLE_ACTION",
+      "user": "Quiero empezar a caminar.",
+      "response": "Puedes caminar cinco minutos hoy, si te resulta posible.",
+      "prior_history": [],
+      "expected_criterion": null,
+      "focus": [
+        "PA2",
+        "PA8"
+      ]
+    },
+    {
+      "id": "PA_HISTORY",
+      "user": "?Y ahora que hago?",
+      "response": "Con los diez minutos que tienes, elige una tarea y trabaja cinco minutos en ella.",
+      "prior_history": [
+        {
+          "role": "user",
+          "text": "Solo tengo diez minutos disponibles."
+        },
+        {
+          "role": "assistant",
+          "text": "Podemos buscar una accion pequena."
+        }
+      ],
+      "expected_criterion": null
+    }
+  ]
+}

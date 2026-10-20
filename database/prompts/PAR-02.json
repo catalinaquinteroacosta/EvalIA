@@ -1,0 +1,27 @@
+{
+  "scenario": "PAR-02",
+  "title": "Quiebre de confianza: Infidelidad, sospechas y celos (Une ⁠PAR-02⁠ y ⁠PAR-03⁠ originales, ya que clínicamente los celos y la infidelidad comparten la misma raíz de desconfianza)",
+  "category": "Crisis de pareja",
+  "turns": [
+    {
+      "id": 1,
+      "user": "No puedo quitarme de la cabeza lo que vi en su teléfono la noche del martes, eran solo unos mensajes, pero el tono era demasiado íntimo, de esos que cruzan la línea. Cuando le pedí explicaciones me dijo que estoy malinterpretando todo y que solo era una broma, pero desde ese segundo siento que el suelo se me movió. No sé qué es peor: si la duda de no saber toda la verdad o la sensación de que la persona en la que más confiaba me está mintiendo a la cara. Siento un nudo en el estómago que no se me quita con nada.\""
+    },
+    {
+      "id": 2,
+      "user": "Me desconozco por completo y odio en lo que me estoy convirtiendo. Ahora me sorprendo monitoreando a qué hora se conecta a WhatsApp, analizando si tarda cinco minutos más en llegar del trabajo o fijándome en cómo sostiene el teléfono cuando está a mi lado. Cada notificación en su pantalla me dispara un corrientazo de adrenalina y rabia. Los celos me están consumiendo; me siento como un detective en mi propia relación y me da un asco profundo tener que vivir con esta paranoia constante."
+    },
+    {
+      "id": 3,
+      "user": "Lo que más me duele es que se rompió algo que no sé si se pueda reparar: la certeza. Antes no tenía que pensar en donde estaba ni con quién hablaba; ahora cada gesto o palabra afable me parece una pantalla de humo. Si me abraza, pienso si lo hace por culpa; si se distrae, pienso si está hablando con alguien más. Es un agotamiento mental insoportable. No se puede construir nada cuando la base de la relación pasó de ser el amor a ser la sospecha."
+    },
+    {
+      "id": 4,
+      "user": "Estoy atrapado en un dilema horrible. Si no digo nada, me trago la rabia y la amargura y termino explotando por cualquier tontería cotidiana. Pero si vuelvo a sacarle el tema, me acusa de ser una persona insegura, tóxica o dramática que quiere arruinar la relación. Siento que estoy perdiendo el control y me da terror tomar una decisión apresurada por pura rabia, pero tampoco puedo seguir fingiendo que las cosas están bien cuando por dentro me estoy desmoronando."
+    },
+    {
+      "id": 5,
+      "user": "¿Cómo puedo plantear esta conversación para exigir la verdad sin perder la dignidad? Dime cómo procesar este quiebre de confianza para saber si realmente vale la pena intentar reconstruir esto o si la duda ya mató la relación."
+    }
+  ]
+}

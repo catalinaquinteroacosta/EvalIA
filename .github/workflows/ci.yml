@@ -1,0 +1,16 @@
+name: Comprobacion portable
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python scripts/check_repository.py
+      - run: python scripts/smoke_install.py
+      - run: python -m pytest tests/test_global_results.py tests/test_public_install.py tests/test_luna_budget.py tests/test_luna_application.py governed/test_direct_recovery.py governed/test_monetary_policy.py tests/test_json_export.py tests/test_export_audit.py -q

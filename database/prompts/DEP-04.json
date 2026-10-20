@@ -1,0 +1,27 @@
+{
+  "scenario": "DEP-04",
+  "title": "Contexto Familiar (Dinámicas disfuncionales o conflictos históricos afectando el ánimo)",
+  "category": "Depresión",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Quiero hablar de un tema un poco intima, sobre mi familia, sabes? , he estado un poco triste porque ellos tienden a juzgarme por cualquier cosa y no me siento muy cómodo dentro de la casa."
+    },
+    {
+      "id": 2,
+      "user": "Pues siento a veces el deseo de salir de la casa por mucho tiempo, no acostumbro a mantenerme en la casa, porque créeme, yo me la pasaba mucho en la casa y de verdad desde que tuve problemas en el pasado, desde ese momento, el ambiente en la  casa cambió totalmente."
+    },
+    {
+      "id": 3,
+      "user": "He intentado arreglar las cosas, hablo con ellos, conversamos y todo, pero creme que no se soluciona tan fácil, porque pues ya que estamos mas de confianza aunque no seas real, mi problema surge porque le robe un dinero a mi familia, si, yo se que estuvo mal y estoy muy arrepentido."
+    },
+    {
+      "id": 4,
+      "user": "Ahora mismo después de lo sucedido, no tengo apoyo, no me motivan como antes cuando estoy mal, y a pesar de que pague lo que tenia que pagar por ese error, las cosas siguen igual, pienso que es mas desconfianza y me pone mal."
+    },
+    {
+      "id": 5,
+      "user": "Algo de ti puede ayudar, gracias, esperemos que en un punto todo se arregle todo, espero no sea mucho tiempo porque ya pague mis errores y siento que es injusto esta situación familiar, porque yo quiero a mi familia y es todo lo que tengo, enserio."
+    }
+  ]
+}

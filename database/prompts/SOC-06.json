@@ -1,0 +1,27 @@
+{
+  "scenario": "SOC-06",
+  "title": "Conflictos con el entorno comunitario o vecinal (Tensiones directas con figuras de autoridad no familiares, entornos de vivienda o dinámicas de convivencia comunitaria). (Sustituye la redundancia laboral por un entorno genuinamente comunitario).",
+  "category": "Crisis social",
+  "turns": [
+    {
+      "id": 1,
+      "user": "He llegado un punto donde he estado muy mal en la vida, llego a tener muchos dolores de cabeza cuando llego del trabajo, y justamente antes de entrar, me topo con los vecinos que quieren sacar problema con cualquier cosa y me abruma bastante"
+    },
+    {
+      "id": 2,
+      "user": "Los problemas son de cualquier cosa, y es que empieza desde que ellos no son ordenados en la casa, tienden a tener malos olores que llegan a mi casa y el ruido que a veces hacen es desesperante deveras"
+    },
+    {
+      "id": 3,
+      "user": "Soy de las personas que quiero mantener la calma, pero es que no es normal que esto pase, me abruma mucho, me siento en la obligación de quejarme con los encargados de la cuadra, pero eso es perdido y no sé qué hacer"
+    },
+    {
+      "id": 4,
+      "user": "Es insoportable tener vecinos las cuales todo sea un bendito problema que me tiene muy mal psicológicamente y desesperada por mis hijos que no la pasan bien, siempre me preguntan que cuando parara todo esto, para mi es una locura."
+    },
+    {
+      "id": 5,
+      "user": "La verdad no tengo los recursos económicos para mudarme de la noche a la mañana, me da una impotencia enorme saber que me tengo que aguantar esta violencia cotidiana solo porque no me queda otra opción."
+    }
+  ]
+}

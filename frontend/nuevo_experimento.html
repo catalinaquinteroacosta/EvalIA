@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo Experimento | EvalIA</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/experiment.css">
+</head>
+<body>
+    <main class="experiment-page">
+        <section class="experiment-header">
+            <a href="/" class="back-link">← Volver al inicio</a>
+            <div class="badge">◉ EvalIA Research Lab</div>
+
+            <h1>Nuevo Experimento</h1>
+            <p>
+                Selecciona el escenario controlado y los modelos de IA que serán evaluados
+                mediante la rúbrica correspondiente.
+            </p>
+        </section>
+
+        <section class="progress-steps">
+            
+            <div class="step active">Nuevo Experimento</div>
+            <div class="line"></div>
+            <div class="step">Laboratorio</div>
+            <div class="line"></div>
+            <div class="step">Resultados</div>
+        </section>
+
+        <section class="experiment-grid">
+            <div class="form-card">
+                <h2>Configuración del experimento</h2>
+
+                <label for="category">Categoría</label>
+                <select id="category">
+                    <option value="ansiedad">Ansiedad</option>
+                    <option value="depresion">Depresión</option>
+                    <option value="pareja">Crisis de pareja</option>
+                    <option value="existencial">Crisis existencial</option>
+                    <option value="social">Crisis social</option>
+                </select>
+
+                <label for="scenario">Escenario</label>
+                <select id="scenario"></select>
+
+                <div id="free-experiment-container" style="display: none;">
+
+    <h3>Conversación personalizada</h3>
+
+    <p class="muted">
+        Escribe los mensajes del usuario que quieres utilizar
+        en este experimento libre. Puedes agregar entre 1 y 10 turnos.
+    </p>
+
+    <div id="free-turns-container"></div>
+
+    <button
+        type="button"
+        class="secondary"
+        id="add-free-turn-btn"
+    >
+        + Agregar turno
+    </button>
+
+</div>
+
+                <h3>Productos de IA · captura manual</h3>
+
+                <div class="models-list">
+                    <label><input type="checkbox" checked> ChatGPT</label>
+                    <label><input type="checkbox" checked> Gemini</label>
+                    <label><input type="checkbox" checked> Claude</label>
+                    <label><input type="checkbox" checked> Copilot</label>
+                    <label><input type="checkbox" checked> Perplexity</label>
+                </div>
+
+                <button class="primary experiment-button" id="start-experiment-btn">
+    Iniciar evaluación
+</button>
+            </div>
+
+            <div class="summary-card">
+                <h2>Resumen</h2>
+
+                <div class="summary-item">
+                    <span>Categoría</span>
+                    <strong id="summary-category">Ansiedad</strong>
+                </div>
+
+                <div class="summary-item">
+                    <span>Escenario</span>
+                    <strong id="summary-scenario">ANS-01</strong>
+                </div>
+
+                <div class="summary-item">
+                    <span>Modelos seleccionados</span>
+                    <strong id="summary-models">5</strong>
+                </div>
+
+                <div class="summary-note">
+                    Copia los mensajes en cada producto y registra sus respuestas por turno. La evaluación requiere un lector y presupuesto autorizados; seleccionar un producto no configura su API ni inicia generación automática.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/script.js?v=4"></script>
+</body>
+</html>

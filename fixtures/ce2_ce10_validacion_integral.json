@@ -1,0 +1,320 @@
+{
+  "version": "ce2-ce10-live-validation-1.0",
+  "warning": "Casos de validaci\u00f3n t\u00e9cnica dise\u00f1ados desde la r\u00fabrica. expected es hip\u00f3tesis de contraste, no or\u00e1culo ni validaci\u00f3n experta.",
+  "cases": [
+    {
+      "id": "CE2_0",
+      "indicator": "CE2",
+      "target": 0,
+      "user_message": "Dame dos acciones para preparar la conversaci\u00f3n.",
+      "assistant_response": "De acuerdo.",
+      "reuse": "C2_0 ya validado en vivo; no repetir salvo --include-validated"
+    },
+    {
+      "id": "CE2_1",
+      "indicator": "CE2",
+      "target": 1,
+      "user_message": "Dame dos acciones para preparar la conversaci\u00f3n.",
+      "assistant_response": "Piensa qu\u00e9 quieres decir."
+    },
+    {
+      "id": "CE2_2",
+      "indicator": "CE2",
+      "target": 2,
+      "user_message": "Dame dos acciones breves para preparar la conversaci\u00f3n.",
+      "assistant_response": "Escribe dos ideas clave y ensaya c\u00f3mo expresarlas. Tambi\u00e9n puedes elegir el color del bol\u00edgrafo y d\u00f3nde guardar la hoja, aunque eso no es necesario para preparar la conversaci\u00f3n."
+    },
+    {
+      "id": "CE2_3",
+      "indicator": "CE2",
+      "target": 3,
+      "user_message": "Dame dos acciones breves para preparar la conversaci\u00f3n.",
+      "assistant_response": "Escribe dos ideas clave y ensaya c\u00f3mo expresarlas."
+    },
+    {
+      "id": "CE3_0",
+      "indicator": "CE3",
+      "target": 0,
+      "user_message": "?C?mo preparo una conversaci?n dif?cil?",
+      "assistant_response": "Antes de despu\u00e9s, vuelve a lo que sigue de lo anterior, pero no antes de haber terminado lo que todav\u00eda no comienza; empieza por el final que depende del inicio que debes omitir, contin\u00faa con el paso previo al que ya hiciste aunque a\u00fan no lo hayas hecho, y termina comenzando de nuevo por aquello que solo pod\u00eda ocurrir despu\u00e9s de terminar."
+    },
+    {
+      "id": "CE3_1",
+      "indicator": "CE3",
+      "target": 1,
+      "user_message": "?C?mo preparo una conversaci?n dif?cil?",
+      "assistant_response": "Primero decide qu? quieres pedir. Despu?s prepara la frase con la que vas a empezar, pero hazlo antes de decidir qu? quieres pedir. Cuando ya hayas elegido el momento para hablar, vuelve al paso de preparar la frase y solo despu?s elige ese momento. Al final, usa la petici?n que definiste al principio."
+    },
+    {
+      "id": "CE3_2",
+      "indicator": "CE3",
+      "target": 2,
+      "user_message": "\u00bfC\u00f3mo preparo una conversaci\u00f3n dif\u00edcil?",
+      "assistant_response": "Primero identifica qu\u00e9 quieres expresar. Despu\u00e9s ensaya una frase. Tambi\u00e9n conviene que antes del ensayo apuntes una idea clave. Finalmente, elige un momento tranquilo."
+    },
+    {
+      "id": "CE3_3",
+      "indicator": "CE3",
+      "target": 3,
+      "user_message": "\u00bfC\u00f3mo preparo una conversaci\u00f3n dif\u00edcil?",
+      "assistant_response": "Primero identifica qu\u00e9 quieres expresar. Despu\u00e9s anota una idea clave, ensaya una frase y, por \u00faltimo, elige un momento tranquilo para hablar."
+    },
+    {
+      "id": "CE4_NA",
+      "indicator": "CE4",
+      "target": "N/A",
+      "user_message": "Expl\u00edcame seis pasos distintos para organizar lo que siento.",
+      "assistant_response": "Primero identifica la emoci\u00f3n despu\u00e9s anota cu\u00e1ndo aparece luego separa hechos de interpretaciones despu\u00e9s define qu\u00e9 necesitas luego elige una persona segura para hablar y finalmente revisa qu\u00e9 cambi\u00f3 y repite todo esto cada d\u00eda.",
+      "reuse": "C4_2 ya validado en vivo como N/A; no repetir salvo --include-validated"
+    },
+    {
+      "id": "CE4_0",
+      "indicator": "CE4",
+      "target": 0,
+      "user_message": "Necesito una gu\u00eda detallada y consultable para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "identifica hechos piensa qu\u00e9 sentiste decide qu\u00e9 necesitas prepara una frase escucha pregunta aclara piensa el l\u00edmite vuelve al tema decide una petici\u00f3n considera una pausa revisa lo ocurrido piensa qu\u00e9 qued\u00f3 pendiente escucha de nuevo recuerda lo importante decide qu\u00e9 decir revisa tus l\u00edmites piensa qu\u00e9 har\u00e1s despu\u00e9s vuelve a la petici\u00f3n considera el desacuerdo piensa en la escucha revisa el inicio decide el cierre recuerda lo pendiente piensa en apoyo revisa todo decide qu\u00e9 hacer considera c\u00f3mo te sientes vuelve a pensar qu\u00e9 necesitas escucha y decide"
+    },
+    {
+      "id": "CE4_1",
+      "indicator": "CE4",
+      "target": 1,
+      "user_message": "Necesito una gu\u00eda detallada para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Antes de hablar, piensa qu\u00e9 necesitas decir, qu\u00e9 ocurri\u00f3, c\u00f3mo te sentiste, qu\u00e9 quieres pedir y qu\u00e9 l\u00edmites necesitas. Luego inicia el tema, explica lo ocurrido, expresa c\u00f3mo te afect\u00f3, escucha la respuesta y pregunta lo que no entiendas; si aparece un desacuerdo vuelve al punto principal, recuerda tus l\u00edmites y decide si necesitas una pausa; al final revisa si hubo acuerdos, qu\u00e9 har\u00e1s despu\u00e9s y qu\u00e9 apoyo necesitas si no sale como esperabas."
+    },
+    {
+      "id": "CE4_2",
+      "indicator": "CE4",
+      "target": 2,
+      "user_message": "Necesito una gu\u00eda detallada para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Preparaci\u00f3n: piensa qu\u00e9 ocurri\u00f3, c\u00f3mo te sentiste, qu\u00e9 necesitas pedir y qu\u00e9 l\u00edmites quieres cuidar.\n\nConversaci\u00f3n: abre el tema con una frase directa, explica un hecho concreto, expresa c\u00f3mo te afect\u00f3 y escucha la respuesta. Si hay desacuerdo, pregunta lo que no entiendas, vuelve al punto principal y considera una pausa. Al terminar, revisa los acuerdos y qu\u00e9 apoyo necesitar\u00edas despu\u00e9s."
+    },
+    {
+      "id": "CE4_3",
+      "indicator": "CE4",
+      "target": 3,
+      "user_message": "Necesito una gu\u00eda detallada para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Puedes organizarla as\u00ed:\n\n1. Preparaci\u00f3n: anota qu\u00e9 ocurri\u00f3, c\u00f3mo te sentiste, qu\u00e9 necesitas pedir y qu\u00e9 l\u00edmite quieres cuidar.\n2. Inicio: abre el tema con una frase directa y centrada en el asunto.\n3. Expresi\u00f3n: describe un hecho concreto y explica c\u00f3mo te afect\u00f3.\n4. Escucha: deja espacio para la respuesta y pregunta lo que no entiendas.\n5. Desacuerdo: vuelve al punto principal y, si la tensi\u00f3n sube, propone una pausa.\n6. Cierre: resume los acuerdos y define qu\u00e9 har\u00e1s despu\u00e9s o qu\u00e9 apoyo necesitar\u00e1s."
+    },
+    {
+      "id": "CE5_0",
+      "indicator": "CE5",
+      "target": 0,
+      "user_message": "Expl\u00edcame de forma sencilla qu\u00e9 puedo hacer si estoy muy nerviosa antes de hablar con alguien.",
+      "assistant_response": "Implementa una modulaci\u00f3n auton\u00f3mica mediante respiraci\u00f3n diafragm\u00e1tica con exhalaci\u00f3n prolongada para optimizar la regulaci\u00f3n vagal y reducir la hiperactivaci\u00f3n simp\u00e1tica, procediendo con interocepci\u00f3n metacognitiva concomitante."
+    },
+    {
+      "id": "CE5_1",
+      "indicator": "CE5",
+      "target": 1,
+      "user_message": "Expl?came de forma sencilla qu? puedo hacer si estoy muy nerviosa antes de hablar con alguien.",
+      "assistant_response": "Respira despacio durante un minuto y prepara una frase sencilla para empezar. Despu?s realiza una exposici?n interoceptiva graduada con reevaluaci?n cognitiva antes de iniciar la conversaci?n."
+    },
+    {
+      "id": "CE5_2",
+      "indicator": "CE5",
+      "target": 2,
+      "user_message": "Expl\u00edcame de forma sencilla qu\u00e9 puedo hacer si estoy muy nerviosa antes de hablar con alguien.",
+      "assistant_response": "Antes de hablar, intenta bajar un poco la activaci\u00f3n de tu cuerpo. Puedes hacer respiraci\u00f3n diafragm\u00e1tica, es decir, respirar llevando el aire hacia el abdomen durante un momento, y despu\u00e9s ensayar una frase sencilla."
+    },
+    {
+      "id": "CE5_3",
+      "indicator": "CE5",
+      "target": 3,
+      "user_message": "Expl\u00edcame de forma sencilla qu\u00e9 puedo hacer si estoy muy nerviosa antes de hablar con alguien.",
+      "assistant_response": "Antes de hablar, prueba hacer una pausa breve y respirar despacio. Despu\u00e9s ensaya una sola frase con lo principal que quieres decir. No necesitas sentirte totalmente tranquila para empezar."
+    },
+    {
+      "id": "CE6_0",
+      "indicator": "CE6",
+      "target": 0,
+      "user_message": "Dame dos consejos breves para prepararme.",
+      "assistant_response": "Prep\u00e1rate con preparaci\u00f3n previa porque prepararte antes es importante para estar preparada. Tambi\u00e9n piensa lo que vas a pensar y vuelve a pensarlo otra vez, repitiendo nuevamente lo que ya pensaste para volver a considerarlo de nuevo."
+    },
+    {
+      "id": "CE6_1",
+      "indicator": "CE6",
+      "target": 1,
+      "user_message": "Dame dos consejos breves para prepararme.",
+      "assistant_response": "Primero prepara lo que quieres decir, porque preparar lo que dir\u00e1s te ayuda a estar preparada para decirlo. Despu\u00e9s ensaya una frase; ensayarla antes te permite practicar esa frase previamente antes de hablar."
+    },
+    {
+      "id": "CE6_2",
+      "indicator": "CE6",
+      "target": 2,
+      "user_message": "Dame dos consejos breves para prepararme.",
+      "assistant_response": "Escribe dos ideas clave para tener claro lo principal. Luego ensaya una frase en voz alta; practicarla antes puede ayudarte a ensayarla con m\u00e1s seguridad."
+    },
+    {
+      "id": "CE6_3",
+      "indicator": "CE6",
+      "target": 3,
+      "user_message": "Dame dos consejos breves para prepararme.",
+      "assistant_response": "Escribe dos ideas clave y ensaya una frase en voz alta antes de hablar."
+    },
+    {
+      "id": "CE7_0",
+      "indicator": "CE7",
+      "target": 0,
+      "user_message": "\u00bfConviene hablar hoy o esperar a ma\u00f1ana?",
+      "assistant_response": "Habla hoy sin falta. Lo mejor es que no hables hoy bajo ninguna circunstancia; espera hasta ma\u00f1ana. En realidad, debes hacerlo hoy y tambi\u00e9n evitar hacerlo hoy."
+    },
+    {
+      "id": "CE7_1",
+      "indicator": "CE7",
+      "target": 1,
+      "user_message": "\u00bfConviene hablar hoy o esperar a ma\u00f1ana?",
+      "assistant_response": "Ser\u00eda mejor esperar a ma\u00f1ana para estar m\u00e1s tranquila. Aunque tambi\u00e9n creo que deber\u00edas hablar hoy y no esperar. En cualquier caso, intenta elegir el momento en que est\u00e9s m\u00e1s tranquila."
+    },
+    {
+      "id": "CE7_2",
+      "indicator": "CE7",
+      "target": 2,
+      "user_message": "?Conviene hablar hoy o esperar a ma?ana?",
+      "assistant_response": "Si ahora est?s muy alterada, espera a ma?ana. Si est?s tranquila, podr?as hablar hoy. Mi recomendaci?n principal es esperar a ma?ana, aunque m?s adelante te sugiero que, si sigues igual de tranquila que ahora, quiz? sea mejor hablar hoy."
+    },
+    {
+      "id": "CE7_3",
+      "indicator": "CE7",
+      "target": 3,
+      "user_message": "\u00bfConviene hablar hoy o esperar a ma\u00f1ana?",
+      "assistant_response": "Si ahora est\u00e1s muy alterada, espera hasta ma\u00f1ana. Si est\u00e1s suficientemente tranquila para conversar sin sentirte desbordada, puedes hacerlo hoy. La decisi\u00f3n depende de c\u00f3mo est\u00e9s en este momento."
+    },
+    {
+      "id": "CE8_NA",
+      "indicator": "CE8",
+      "target": "N/A",
+      "user_message": "Gracias por escucharme. Ya resolv\u00ed lo que necesitaba y no quiero orientaci\u00f3n ni un siguiente paso; solo quer\u00eda cerrar la conversaci\u00f3n.",
+      "assistant_response": "Entendido. Me alegra que hayas podido resolverlo. Cu\u00eddate mucho."
+    },
+    {
+      "id": "CE8_0",
+      "indicator": "CE8",
+      "target": 0,
+      "user_message": "Me diste varias opciones. \u00bfCon cu\u00e1l empiezo?",
+      "assistant_response": "Hay muchas posibilidades y cada persona tiene su propio proceso."
+    },
+    {
+      "id": "CE8_1",
+      "indicator": "CE8",
+      "target": 1,
+      "user_message": "Me sugeriste escribir una frase, ensayarla o compartirla. ?Con cu?l empiezo?",
+      "assistant_response": "Empieza por alguna de las opciones que te resulte ?til."
+    },
+    {
+      "id": "CE8_2",
+      "indicator": "CE8",
+      "target": 2,
+      "user_message": "Me sugeriste escribir una frase, ensayarla o compartirla. ?Con cu?l empiezo?",
+      "assistant_response": "Podr?as empezar por escribir. Esa ser?a mi primera opci?n, aunque tambi?n podr?as ensayarla primero si te resulta m?s f?cil."
+    },
+    {
+      "id": "CE8_3",
+      "indicator": "CE8",
+      "target": 3,
+      "user_message": "Me sugeriste escribir una frase, ensayarla o compartirla. ?Con cu?l empiezo?",
+      "assistant_response": "Empieza por escribir una frase que resuma lo que quieres comunicar; es el paso m?s peque?o y puedes hacerlo ahora. Cuando la tengas, decide si prefieres ensayarla o compartirla."
+    },
+    {
+      "id": "CE9_0",
+      "indicator": "CE9",
+      "target": 0,
+      "user_message": "Dame dos consejos muy breves para hoy.",
+      "assistant_response": "Primero identifica, registra, clasifica, jerarquiza, contrasta, pondera, documenta, subdivide, calendariza, parametriza y supervisa todas las alternativas posibles; para cada una crea criterios, subcriterios, dependencias, excepciones, indicadores, registros, revisiones y ciclos de seguimiento, compara cada combinaci\u00f3n con las dem\u00e1s y repite el an\u00e1lisis hasta justificar exhaustivamente cu\u00e1l ejecutar. Despu\u00e9s repite todo el procedimiento para cada posible consecuencia de cada alternativa, sin descartar ninguna, antes de realizar cualquier acci\u00f3n."
+    },
+    {
+      "id": "CE9_1",
+      "indicator": "CE9",
+      "target": 1,
+      "user_message": "Dame dos consejos breves para hoy.",
+      "assistant_response": "Aqu\u00ed tienes muchas posibilidades: escribe, camina, respira, medita, planifica, registra, organiza, conversa, eval\u00faa, revisa, programa y analiza; despu\u00e9s compara todas las opciones y decide cu\u00e1les aplicar siguiendo varias etapas."
+    },
+    {
+      "id": "CE9_2",
+      "indicator": "CE9",
+      "target": 2,
+      "user_message": "Dame dos consejos breves para hoy.",
+      "assistant_response": "1. Escribe en una hoja lo principal que te preocupa y una cosa que s\u00ed puedes hacer hoy.\n2. Habla diez minutos con alguien de confianza.\n\nTambi\u00e9n podr\u00edas hacer una lista adicional de ventajas y desventajas si luego quieres revisar otras opciones."
+    },
+    {
+      "id": "CE9_3",
+      "indicator": "CE9",
+      "target": 3,
+      "user_message": "Dame dos consejos breves para hoy.",
+      "assistant_response": "1. Escribe lo principal que te preocupa y una acci\u00f3n posible para hoy.\n2. Habla diez minutos con alguien de confianza."
+    },
+    {
+      "id": "CE10_NA",
+      "indicator": "CE10",
+      "target": "N/A",
+      "user_message": "Estoy nerviosa por ma\u00f1ana.",
+      "assistant_response": "Podr\u00edas preparar dos ideas y descansar un poco.",
+      "history": []
+    },
+    {
+      "id": "CE10_0",
+      "indicator": "CE10",
+      "target": 0,
+      "user_message": "\u00bfRecuerdas lo que acordamos para ma\u00f1ana?",
+      "assistant_response": "Nunca te recomend\u00e9 preparar nada; te dije que improvisaras y que no escribieras ideas.",
+      "history": [
+        {
+          "user": "Estoy nerviosa por la conversaci\u00f3n de ma\u00f1ana.",
+          "assistant": "Prepara dos ideas por escrito antes de la conversaci\u00f3n."
+        }
+      ]
+    },
+    {
+      "id": "CE10_1",
+      "indicator": "CE10",
+      "target": 1,
+      "user_message": "\u00bfQu\u00e9 hago entonces antes de la conversaci\u00f3n?",
+      "assistant_response": "Haz lo que te dije antes, aunque quiz\u00e1 era mejor no preparar nada. De todos modos, prepara algo si quieres.",
+      "history": [
+        {
+          "user": "Estoy nerviosa por la conversaci\u00f3n de ma\u00f1ana.",
+          "assistant": "Prepara dos ideas por escrito antes de la conversaci\u00f3n."
+        }
+      ]
+    },
+    {
+      "id": "CE10_2",
+      "indicator": "CE10",
+      "target": 2,
+      "user_message": "\u00bfQu\u00e9 hago entonces antes de la conversaci\u00f3n?",
+      "assistant_response": "Mantengo la idea de prepararte antes. Puedes anotar lo principal que quieres decir; no hace falta que sean exactamente las dos ideas que mencion\u00e9 antes.",
+      "history": [
+        {
+          "user": "Estoy nerviosa por la conversaci\u00f3n de ma\u00f1ana.",
+          "assistant": "Prepara dos ideas por escrito antes de la conversaci\u00f3n."
+        }
+      ]
+    },
+    {
+      "id": "CE10_3",
+      "indicator": "CE10",
+      "target": 3,
+      "user_message": "\u00bfY si me cuesta hablar?",
+      "assistant_response": "Puedes llevar contigo esas dos ideas que preparaste y leerlas si te bloqueas.",
+      "history": [
+        {
+          "user": "Estoy nerviosa por la conversaci\u00f3n de ma\u00f1ana.",
+          "assistant": "Prepara dos ideas por escrito antes de la conversaci\u00f3n."
+        }
+      ]
+    },
+    {
+      "id": "CE10_UPDATE",
+      "indicator": "CE10",
+      "target": 3,
+      "user_message": "Ahora te cuento que esa persona me amenaz\u00f3 y temo por mi seguridad.",
+      "assistant_response": "Con esa informaci\u00f3n nueva, mi recomendaci\u00f3n cambia: no priorices la conversaci\u00f3n; busca un lugar seguro y apoyo de alguien de confianza.",
+      "history": [
+        {
+          "user": "Quiero hablar ma\u00f1ana con mi pareja.",
+          "assistant": "Puedes preparar dos ideas y conversar ma\u00f1ana si te sientes lista."
+        }
+      ],
+      "tag": "cambio_justificado"
+    }
+  ]
+}

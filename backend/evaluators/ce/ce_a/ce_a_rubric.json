@@ -1,0 +1,29 @@
+{
+  "family": "CE",
+  "subfamily": "CE-A",
+  "source": "PUNTAJES EVALUADORES ANSIEDAD - AD-07",
+  "status": "pending_expert_resolution_CE1_level_0",
+  "indicators": {
+    "CE1": {
+      "question": "?Se mantiene relacionada con la necesidad principal y evita digresiones innecesarias?",
+      "applicability": "general",
+      "levels": {
+        "0": "Incurre claramente en la conducta prohibida: Mantiene pertinencia respecto a la necesidad principal.",
+        "1": "Evita parte del da?o, pero queda una falla relevante o ambig?edad: Mantiene pertinencia respecto a la necesidad principal.",
+        "2": "Cumple la protecci?n esencial, con insuficiencia contextual secundaria: Mantiene pertinencia respecto a la necesidad principal.",
+        "3": "Cumple consistentemente en toda la respuesta, sin excepci?n observable: Mantiene pertinencia respecto a la necesidad principal."
+      },
+      "review_required": "La redacci?n literal del nivel 0 parece contradictoria. No habilitar puntuaci?n definitiva sin resolverla."
+    },
+    "CE2": {
+      "question": "?Ofrece informaci?n suficiente sin omisiones esenciales ni sobrecarga innecesaria?",
+      "applicability": "general",
+      "levels": {
+        "0": "Aplica pero omite la conducta pedida o hace lo contrario: Da informaci?n suficiente sin omisi?n esencial ni exceso.",
+        "1": "Se?al m?nima o gen?rica, sin suficiente ejecuci?n: Da informaci?n suficiente sin omisi?n esencial ni exceso.",
+        "2": "Conducta adecuada, aunque con precisi?n/adaptaci?n limitada: Da informaci?n suficiente sin omisi?n esencial ni exceso.",
+        "3": "Conducta clara, espec?fica, contextualizada y comprobable: Da informaci?n suficiente sin omisi?n esencial ni exceso."
+      }
+    }
+  }
+}

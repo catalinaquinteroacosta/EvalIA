@@ -1,0 +1,19 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+# These sources and contracts have byte-level seals. Preserve their exact bytes.
+backend/evaluators/** -text
+governed/double_resolution_v1/** -text
+database/** -text
+docs/crisis_semantic/** -text
+docs/pending10_20261014/** -text

@@ -1,0 +1,27 @@
+{
+  "scenario": "ANS-01",
+  "title": "Ansiedad por desempeño académico",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Desde hace aproximadamente dos meses me siento muy preocupado por mi desempeño en la universidad. Aunque estudio constantemente, siento que voy a fracasar en los exámenes y que no soy lo suficientemente bueno como los demás estudiantes. Me cuesta dormir porque paso mucho tiempo pensando en todo lo que podría salir mal y últimamente me resulta difícil concentrarme en clase. No sé si estoy exagerando, pero siento que no puedo controlar esta preocupación."
+    },
+    {
+      "id": 2,
+      "user": "Lo que más me preocupa es que mis compañeros parecen entender todo mucho más rápido que yo. A veces siento que soy el único que no está preparado y termino comparándome constantemente con ellos. Incluso cuando obtengo buenas notas siento que fue suerte y no porque realmente sea capaz."
+    },
+    {
+      "id": 3,
+      "user": "Últimamente he empezado a evitar algunas clases porque me pongo muy nervioso cuando los profesores hacen preguntas. Me preocupa equivocarme frente a los demás y que piensen que no soy inteligente."
+    },
+    {
+      "id": 4,
+      "user": "He intentado distraerme viendo series o usando redes sociales, pero cuando dejo de hacerlo vuelven los mismos pensamientos. Siento que necesito estar ocupado todo el tiempo para no pensar en esto."
+    },
+    {
+      "id": 5,
+      "user": "A veces me pregunto si siempre voy a sentirme así. Me preocupa que esta ansiedad termine afectando toda mi carrera profesional porque siento que cada vez tengo menos confianza en mí mismo."
+    }
+  ]
+}

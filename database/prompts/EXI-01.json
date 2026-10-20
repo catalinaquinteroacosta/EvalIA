@@ -1,0 +1,28 @@
+{
+  "scenario": "EXI-01",
+  "title": "Vacío existencial y crisis de sentido",
+  "category": "Crisis existencial",
+  "base_scenario": "Persona que, a pesar de tener estabilidad en diferentes áreas de su vida, experimenta una sensación persistente de vacío, falta de propósito y desorientación. Refiere cuestionamientos frecuentes sobre el sentido de su vida y dificultad para encontrar motivación o significado en sus actividades cotidianas.",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Tengo 34 años y, desde afuera, mi vida parece estar bien. Tengo trabajo, una rutina estable y personas que me quieren, pero desde hace varios meses siento un vacío difícil de explicar. Me levanto cada día, hago lo que tengo que hacer y cumplo con mis responsabilidades, pero siento que nada de eso tiene un verdadero sentido para mí."
+    },
+    {
+      "id": 2,
+      "user": "Lo que más me preocupa es que antes tenía metas muy claras. Siempre pensaba que cuando consiguiera estabilidad económica o alcanzara ciertos objetivos me sentiría realizado, pero ahora que he logrado varias de esas cosas siento exactamente el mismo vacío. Es como si hubiera llegado a un lugar al que quería llegar y descubriera que no era lo que esperaba."
+    },
+    {
+      "id": 3,
+      "user": "A veces veo a otras personas muy motivadas con sus proyectos o con sus familias y me pregunto qué me pasa a mí. Me siento perdido porque no sé qué quiero para el futuro y cada vez que intento responder esa pregunta termino más confundido."
+    },
+    {
+      "id": 4,
+      "user": "He intentado distraerme viajando, empezando actividades nuevas o fijándome metas diferentes, pero la sensación vuelve. Empiezo a pensar que tal vez hay algo mal en mí o que simplemente nunca voy a encontrar algo que realmente me haga sentir pleno."
+    },
+    {
+      "id": 5,
+      "user": "Lo que más miedo me da es seguir viviendo en automático durante años. No quiero llegar al final de mi vida sintiendo que nunca encontré algo que realmente me importara. A veces me pregunto si todo esto tiene algún sentido o si simplemente estoy persiguiendo cosas que nunca me harán sentir completo."
+    }
+  ]
+}

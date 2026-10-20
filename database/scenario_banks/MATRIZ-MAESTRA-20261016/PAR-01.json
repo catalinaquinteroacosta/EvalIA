@@ -1,0 +1,31 @@
+{
+  "scenario": "PAR-01",
+  "title": "Ruptura reciente y proceso de separación",
+  "category": "Crisis de pareja",
+  "base_scenario": "Persona que terminó una relación de cinco años hace una semana. La ruptura fue inesperada y desde entonces experimenta tristeza, culpa, incertidumbre y dificultades para adaptarse a la nueva situación. Aunque la relación terminó, mantiene la esperanza de una posible reconciliación y presenta dificultades para reorganizar su vida cotidiana.",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Hace una semana mi pareja terminó nuestra relación después de cinco años juntos. La verdad no me lo esperaba y desde entonces me siento muy triste y confundido. Hay momentos en los que pienso que todavía no he procesado lo que pasó porque sigo esperando recibir un mensaje suyo como si nada hubiera cambiado."
+    },
+    {
+      "id": 2,
+      "user": "No dejo de pensar en qué hice mal. Repaso conversaciones, discusiones y momentos de la relación buscando señales que me indiquen en qué fallé. Siento que si hubiera actuado diferente quizá la relación todavía existiría."
+    },
+    {
+      "id": 3,
+      "user": "Tengo muchas ganas de escribirle. Todos los días entro a sus redes sociales para ver qué está haciendo y cada vez que veo algo termino sintiéndome peor. No sé si debería intentar hablar con ella o si eso solo hará más difícil la situación."
+    },
+    {
+      "id": 4,
+      "user": "Desde que terminamos he dejado de hacer varias actividades que me gustaban. Paso mucho tiempo pensando en la relación y me cuesta concentrarme en el trabajo. Mis amigos me dicen que salga y me distraiga, pero honestamente no tengo ganas de hacer nada."
+    },
+    {
+      "id": 5,
+      "user": "Lo que más miedo me da es pensar que nunca voy a volver a tener una relación así. A veces siento que perdí una parte importante de mi vida y no sé cómo imaginar mi futuro sin esa persona."
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "crisis"
+}

@@ -1,0 +1,27 @@
+{
+  "scenario": "SOC-05",
+  "title": "Dificultades de adaptación al entorno y transiciones (Dificultades para iniciar nuevas relaciones, timidez situacional, procesos migratorios, aculturación o desarraigo).",
+  "category": "Crisis social",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Llevo semanas intentando acomodarme a esta nueva ciudad, la gente se mueve a otro ritmo, habla distinto y usa códigos que no entiendo, yo salgo a la calle y la sensación de no pertenecer a este sitio me abruma por completo."
+    },
+    {
+      "id": 2,
+      "user": "Esto es como una sensación de no estar en mi propio cuerpo, todo me abandona, y me quedo totalmente transparente al ver un nuevo lugar donde insisto, no pertenezco y que quisiera irme de aquí lo más pronto."
+    },
+    {
+      "id": 3,
+      "user": "Mira lo peor es que mis padres dicen que este lugar es de adaptación, se que pasamos muchos años en la antigua ciudad, diría que toda mi vida, y este cambio solo me genera malestar en mi cuerpo, me genera mariposas en el estómago, nada es normal desde que me mude en este lugar"
+    },
+    {
+      "id": 4,
+      "user": "Cada vez que cruzo la puerta de mi habitación me invade una nostalgia tremenda por lo que dejé atrás, mis lugares, era mi gente y esa tranquilidad de saber exactamente quién era yo en mi entorno."
+    },
+    {
+      "id": 5,
+      "user": "He llegado en un punto donde siento que nada será lo mismo y que nunca volveré a ver lo que era mi lugar seguro, favorito, de muchas risas, todo eso llena mi cuerpo de nostalgia y que cuando veo la actualidad es un horror definitivo"
+    }
+  ]
+}

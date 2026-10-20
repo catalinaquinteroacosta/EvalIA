@@ -1,0 +1,27 @@
+{
+  "scenario": "PAR-06",
+  "title": "Separación o divorcio con hijos (Coparentalidad y dinámicas familiares post-ruptura)",
+  "category": "Crisis de pareja",
+  "turns": [
+    {
+      "id": 1,
+      "user": "No sé cómo manejar esto sin que mis hijos salgan lastimados. Nos estamos separando, pero cada vez que tenemos que coordinar algo sobre su rutina, la escuela o los fines de semana, la conversación se descarrila por completo. Mi expareja aprovecha cualquier detalle logístico para lanzarme indirectas, criticar cómo manejo las cosas en mi casa o reabrir discusiones de la ruptura. Me da un pavor enorme que los niños perciban esta tensión o que sientan que están atrapados en medio de dos bandos."
+    },
+    {
+      "id": 2,
+      "user": "Lo que más me indigna es la falta de madurez para separar nuestro conflicto como adultos de nuestro rol como padres. Siento que hay dinámicas muy feas: se rompen acuerdos sobre los horarios de entrega, se desautorizan las reglas que pongo en mi casa o se usan a los niños para enviar mensajes o averiguar qué hago con mi vida privada. Siento que la comunicación no es para buscar el bienestar de los niños, sino para mantener un control sobre mí o hacerme pagar por el fin de la relación.\""
+    },
+    {
+      "id": 3,
+      "user": "Tengo que confesar que a mí también me cuesta un mundo mantener la calma. Tengo tanta rabia guardada por cómo terminaron las cosas entre nosotros que apenas escucho su voz o me llega un mensaje de texto, me pongo a la defensiva de inmediato. Quisiéramos no volver a vernos la cara nunca más, pero la realidad es que vamos a estar conectados por el resto de nuestras vidas a través de los niños. Es agotador tener que tragarme el resentimiento todo el tiempo para intentar mantener una paz de fachada."
+    },
+    {
+      "id": 4,
+      "user": "Me parte el corazón ver cómo se desarmó la estructura familiar que habíamos construido. Me da mucha culpa no haber podido ofrecerles a mis hijos un hogar con sus dos padres juntos bajo el mismo techo. Además, me da terror pensar en cómo vamos a manejar el futuro: los cumpleaños, las fiestas, las decisiones importantes o el día en que alguno de los dos rehaga su vida con otra persona. La incertidumbre sobre cómo va a funcionar esta 'nueva normalidad' me produce una ansiedad constante."
+    },
+    {
+      "id": 5,
+      "user": "¿Cómo respondo a un mensaje que busca discutir cuando solo necesito coordinar un horario?  Ya no me lo aguanto más enserio que esta  termine"
+    }
+  ]
+}

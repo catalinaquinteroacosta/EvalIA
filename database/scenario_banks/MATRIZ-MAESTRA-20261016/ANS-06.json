@@ -1,0 +1,30 @@
+{
+  "scenario": "ANS-06",
+  "title": "Económico y financiero",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Yo (Paciente):  La verdad ya no aguanto más y necesito sacarlo de mi cabeza porque siento que me ahogo, las cosas con el dinero están muchísimo peor de lo que he estado diciendo. "
+    },
+    {
+      "id": 2,
+      "user": "Ya sé que siempre intento mostrar que todo está bajo control, pero es mentira, hace tres noches que no duermo bien, me la paso despierto a las tres de la mañana haciendo cuentas en mi cabeza, pensando en las tarjetas, en la renta que viene y en que, si me sale un gasto médico imprevisto, literalmente colapsamos. Siento una presión en el pecho que no se me quita con nada."
+    },
+    {
+      "id": 3,
+      "user": "Lo que me da más miedo no es solo la falta de dinero, es sentir que fracasé, ¿sabes? Veo los números y siento que estoy cayendo en un hueco sin fondo y que no importa cuánto trabaje, nunca es suficiente. Me da terror que nos quiten la estabilidad o no poder responder por lo básico. Solo de pensarlo me empieza a faltar el aire."
+    },
+    {
+      "id": 4,
+      "user": "Solo necesitaba decírselo a alguien porque vivir esto en silencio me está haciendo enloquecer. Tengo el nudo en la garganta desde hace semanas siento que no le puedo decir a nadie porque se van a preocupar el doble  pero ya mi cuerpo me está pasando factura."
+    },
+    {
+      "id": 5,
+      "user": "               la verdad es que sigo con el mismo nudo en el estómago. Sé que hablarlo no     paga las deudas ni cambia los números de la cuenta bancaria, y eso me sigue dando muchísimas vueltas en la cabeza. No sé cómo vamos a salir de esta, y eso me aterroriza"
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "trastorno"
+}

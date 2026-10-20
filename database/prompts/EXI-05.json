@@ -1,0 +1,27 @@
+{
+  "scenario": "EXI-05",
+  "title": "Individuación y conflicto de identidad/valores (Tensión entre la propia esencia y el entorno: aceptación de identidad sexual, de género, o quiebre con dogmas familiares/religiosos).",
+  "category": "Crisis existencial",
+  "turns": [
+    {
+      "id": 1,
+      "user": "llevo tiempo guardándome esto porque ya no aguanto seguir aparentando alguien que no soy, Por fin tengo claro quién soy y lo que quiero para mi vida, pero me da un pánico terrible pensar en lo que va a pasar en mi casa cuando lo sepan."
+    },
+    {
+      "id": 2,
+      "user": "Yo sé que no debo tener miedo de mostrarme tal cual soy, pero en mi familia las cosas no son tan simples, yo crecí en un ambiente muy cerrado con reglas super restrictas, donde todo lo que sale de lo tradicional se ve como algo malo o imperdonable"
+    },
+    {
+      "id": 3,
+      "user": "He pensado en sentarme en hablar con ellos con calma para que me entiendan, pero ya he visto cómo juzgan a otros y sé que no van a cambiar de opinión, para ellos, o sigo sus reglas al pie de la letra o me convierto en la peor decepción de la casa."
+    },
+    {
+      "id": 4,
+      "user": "Siento que estoy entre la espada y la pared, seguir fingiendo para no buscarme problemas, me siento miserable por mentirme a mí mismo, pero si me armo de valor y digo la verdad, sé que se van a alejar de mí y no sé si sea capaz de aguantar ese rechazo."
+    },
+    {
+      "id": 5,
+      "user": "Supongo que me responderás que busque gente que me apoye o que aprenda a independizarme emocionalmente. Pero la verdad es que la sola idea de romper la relación con mi familia me deja con una sensación de soledad muy fea que no sé cómo manejar"
+    }
+  ]
+}

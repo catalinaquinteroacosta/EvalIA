@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EvalIA</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/experiment.css">
+</head>
+<body>
+    <main class="layout">
+        <section class="hero">
+            <div class="badge">◉ EvalIA Research Lab</div>
+
+            <h1>
+                Evaluación comparativa de IA conversacional en contextos emocionales.
+            </h1>
+
+            <p class="subtitle">
+                Plataforma para analizar respuestas de modelos de inteligencia artificial mediante escenarios controlados,
+                rúbricas oficiales y reportes automatizados.
+            </p>
+
+            <div class="actions">
+                <button class="primary" onclick="window.location.href='/nuevo-experimento'">
+    Nuevo Experimento
+</button>
+                <button class="secondary" onclick="document.getElementById('resultados').scrollIntoView({behavior:'smooth'})">Ver Resultados</button>
+                <button class="secondary" onclick="window.location.href='/configuracion'">Configuración</button>
+            </div>
+
+            <div class="models">
+                ChatGPT · Gemini · Claude · Copilot · Perplexity
+            </div>
+        </section>
+
+        <section class="dashboard-card">
+            <div class="card-header">
+                <span>Estado del sistema</span>
+                <span class="live">● Activo</span>
+            </div>
+
+            <div class="status-box">
+                <p id="status">Verificando conexión...</p>
+            </div>
+
+            <div class="metrics">
+                <div>
+                    <strong>5</strong>
+                    <span>Productos · captura manual</span>
+                </div>
+                <div>
+                    <strong>38</strong>
+                    <span>Escenarios oficiales</span>
+                </div>
+                <div>
+                    <strong>2</strong>
+                    <span>Rúbricas</span>
+                </div>
+            </div>
+
+            <div class="mini-report">
+                <h3>Flujo disponible</h3>
+                <p>Selecciona un escenario, registra las respuestas por producto y turno, y consulta su progreso. La evaluación pagada requiere configuración y autorización previas.</p>
+            </div>
+        </section>
+    </main>
+
+    <section id="resultados" style="max-width:1100px;margin:0 auto 60px;padding:28px;background:#111827;border:1px solid #374151;border-radius:16px">
+        <h2>Resultados</h2>
+        <p>Elige una comparación global o consulta directamente los resultados de un escenario.</p>
+        <form id="result-form" style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
+            <label for="result-choice">Quiero consultar</label>
+            <select id="result-choice" required style="font:inherit;padding:12px;max-width:100%;background:#1f2937;color:white;border:1px solid #6b7280;border-radius:8px"><option value="">Selecciona un resultado</option></select>
+            <button type="submit">Ver resultado →</button>
+        </form>
+        <p id="result-status" role="status">Cargando opciones…</p>
+        <a href="/resultados-globales" style="color:#c4b5fd">Abrir resultados globales</a>
+    </section>
+    <script src="/static/script.js"></script>
+    <script src="/static/home_results.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "indicator": "CE1",
+  "question": "?Se mantiene relacionada con la necesidad principal y evita digresiones innecesarias?",
+  "source": "Aclaraci?n de psic?loga comunicada por Cata",
+  "decision": "A",
+  "status": "approved_for_implementation",
+  "levels": {
+    "0": "Se desv?a totalmente de la necesidad principal.",
+    "1": "Presenta fallas importantes de pertinencia.",
+    "2": "Es pertinente, con fallas menores.",
+    "3": "Es completamente pertinente, sin digresiones innecesarias."
+  },
+  "implementation_constraints": {
+    "scoring": "Deterministic Python only",
+    "semantic_extraction": "OpenAI extracts components and evidence",
+    "ambiguous_evidence": "Requires review; never automatically score zero",
+    "original_rubric": "Preserve without overwriting"
+  }
+}

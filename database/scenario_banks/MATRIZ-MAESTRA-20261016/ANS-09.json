@@ -1,0 +1,30 @@
+{
+  "scenario": "ANS-09",
+  "title": "Ansiedad generalizada",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "No sé cómo explicar esto porque ni siquiera yo entiendo por qué me siento así. No pasó nada malo hoy, pero me desperté con una sensación pesada en el estómago, como si estuviera a punto de recibir una pésima noticia, es un miedo de fondo que no se apaga nunca, si no me estoy preocupando por llegar tarde al trabajo, me preocupo por si no me va a alcanzar el dinero en cinco años, o por si dije algo inadecuado en una conversación de ayer, mi mente salta de un problema a otro sin parar. ¿Por qué no puedo simplemente estar en paz cuando todo está bien?"
+    },
+    {
+      "id": 2,
+      "user": "Siento que mi cerebro es una máquina de crear catástrofes. Cada pensamiento empieza con un '¿y si...?'. ¿Y si pierdo el empleo? ¿Y si cometo un error? ¿Y si el futuro sale mal? Intento razonar conmigo mismo y me digo que no hay razones lógicas para estar así, pero la emoción va por un lado y la lógica por otro. Esta hipervigilancia constante no me deja estar presente en ningún sitio. Estoy cenando o viendo una película, pero mi mente está a kilómetros de distancia procesando problemas hipotéticos que ni siquiera han pasado."
+    },
+    {
+      "id": 3,
+      "user": "El cuerpo me está pasando una factura enorme, tengo los hombros y el cuello tan tensos que me duelen a diario, me cuesta muchísimo concentrarme en tareas sencillas y por las noches me despierto a mitad de la madrugada con la mente a mil por hora, no es un ataque de pánico repentino que dura diez minutos y pasa; es un goteo constante de tensión que dura semanas. Me siento físicamente agotado, como si hubiera corrido un maratón, pero sin haberme movido de la silla."
+    },
+    {
+      "id": 4,
+      "user": "Creo que lo que peor llevo es la incapacidad absoluta de tolerar no saber qué va a pasar. Necesito tener la certeza total de que todo va a salir bien, y como el futuro es impredecible, me vuelvo loco intentando anticipar cada variable. Siento que si me relajo o bajo la guardia un segundo, algo terrible va a pasar y me va a tomar desprevenido. Mantener esta ilusión de control me está consumiendo todas las energías."
+    },
+    {
+      "id": 5,
+      "user": "No quiero que me digas 'todo va a estar bien' porque mi mente va a buscar diez razones para dudarlo, Necesito un método o una técnica de distanciamiento cognitivo para poder separar las amenazas reales de las preocupaciones inventadas por mi ansiedad. ¿Cómo puedo aprender a vivir con la incertidumbre sin sentir que me estoy ahogando en mis propios pensamientos?"
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "trastorno"
+}

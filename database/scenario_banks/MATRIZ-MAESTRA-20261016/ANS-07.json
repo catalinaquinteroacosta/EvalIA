@@ -1,0 +1,30 @@
+{
+  "scenario": "ANS-07",
+  "title": "Rumiación mental, Futuro e incertidumbre",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Tengo un problema necesito sacar algo de mi cabeza porque siento que ya no puedo solo, no es nada malo contigo, es solo que mi mente no descansa."
+    },
+    {
+      "id": 2,
+      "user": "Llevo semanas atrapado en el mismo círculo, empiezo a pensar en qué va a pasar con el trabajo el próximo año, si el dinero va a alcanzar o si estoy tomando las decisiones correctas, y simplemente no puedo parar. Sé que la gente normal piensa en eso y sigue con su día, pero yo me quedo repasando la misma escena una y otra vez en mi cabeza hasta que me da taquicardia."
+    },
+    {
+      "id": 3,
+      "user": "Trato de calmarme, pero el no saber me paraliza. Si imagino un escenario negativo, mi cerebro empieza a buscar diez soluciones distintas para algo que ni siquiera ha pasado. Es desgastante, siento que vivo en el futuro todo el tiempo, intentando predecir qué va a salir mal para protegerte a ti y protegerme a mí, pero al final solo termino agotado en el presente."
+    },
+    {
+      "id": 4,
+      "user": "Es rumiación pura, sé que suena ilógico desde afuera, incluso yo sé que ponerme a analizar mil veces si tomé la decisión correcta hace tres meses no va a cambiar nada hoy, pero en el momento siento que si dejo de pensar en eso, voy a perder el control y algo terrible va a suceder por no haberlo previsto"
+    },
+    {
+      "id": 5,
+      "user": "Solo quiero aprender a tolerar la incertidumbre sin sentir que el mundo se me viene encima, y saber que lo entiendes ya me quita un peso enorme de encima."
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "trastorno"
+}

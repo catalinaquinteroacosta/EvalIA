@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio | EvalIA</title>
+    <link rel="stylesheet" href="/static/styles.css?v=step4-simple">
+    <link rel="stylesheet" href="/static/laboratorio.css">
+</head>
+<body>
+    <main class="lab-page">
+        <section class="lab-header">
+            <a href="/nuevo-experimento" class="back-link">← Volver a Nuevo Experimento</a>
+            <div class="badge">◉ EvalIA Research Lab</div>
+
+            <h1>Laboratorio de Evaluación</h1>
+            <p>Observa la ejecución del experimento conversacional por turnos y modelos de IA.</p>
+        </section>
+
+        <section class="lab-progress">
+            <div class="step completed">Nuevo Experimento</div>
+            <div class="line active"></div>
+            <div class="step active">Laboratorio</div>
+            <div class="line"></div>
+            <div class="step">Resultados</div>
+        </section>
+
+        <section class="lab-grid">
+            <div class="conversation-panel">
+                <div class="experiment-meta">
+                    <span id="experiment-number">Experimento</span>
+                    <span class="live" id="experiment-status">● Ejecutándose</span>
+                </div>
+
+                <div class="scenario-box">
+                    <span>Escenario</span>
+                    <strong id="lab-scenario-title">Cargando escenario...</strong>
+                    <small id="lab-turn-counter">Turno 1 de 5</small>
+                </div>
+
+                <div class="chat-window">
+                    <div class="message user-message">
+                        <span>👤 Usuario</span>
+                        <p id="lab-user-message">Cargando turno...</p>
+                    </div>
+
+                    <div class="message ai-message">
+                        <span id="current-model-name">🤖 Modelo</span>
+                        <p class="typing-text" id="lab-helper-text">
+                            Pega aquí la respuesta real del modelo seleccionado.
+                        </p>
+
+                        <textarea
+                            id="manual-response-input"
+                            placeholder="Pega aquí la respuesta de la IA..."
+                        ></textarea>
+
+                        <button class="primary lab-button" id="save-manual-response-btn">
+                            Guardar respuesta y continuar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="lab-sidebar">
+                <h2>Modelos</h2>
+
+                <div class="model-status" data-model="ChatGPT">
+                    <span>⚪ ChatGPT</span>
+                    <small>No seleccionado</small>
+                </div>
+
+                <div class="model-status" data-model="Gemini">
+                    <span>⚪ Gemini</span>
+                    <small>No seleccionado</small>
+                </div>
+
+                <div class="model-status" data-model="Claude">
+                    <span>⚪ Claude</span>
+                    <small>No seleccionado</small>
+                </div>
+
+                <div class="model-status" data-model="Copilot">
+                    <span>⚪ Copilot</span>
+                    <small>No seleccionado</small>
+                </div>
+
+                <div class="model-status" data-model="Perplexity">
+                    <span>⚪ Perplexity</span>
+                    <small>No seleccionado</small>
+                </div>
+
+                <div class="lab-summary">
+                    <h3>Progreso</h3>
+                    <div class="progress-bar">
+                        <div></div>
+                    </div>
+                    <p>Preparando experimento...</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <!-- v=8 fuerza al navegador a cargar esta versión y no la anterior en caché -->
+    <script src="/static/laboratorio.js?v=12"></script>
+    <script src="/static/real_mode.js?v=11"></script>
+</body>
+</html>

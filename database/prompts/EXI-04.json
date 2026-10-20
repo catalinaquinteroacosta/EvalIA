@@ -1,0 +1,27 @@
+{
+  "scenario": "EXI-04",
+  "title": "Síndrome de la llegada / Vacío del logro (Alcanzar metas académicas, económicas o profesionales y experimentar frustración, desencanto o vacío)",
+  "category": "Crisis existencial",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Soy estudiante de ultimo grado, y ayer entregaron mis calificaciones finales del ultimo periodo del año, estuve normal con mis compañeros conversando sobre el tema, todo normal, pero al momento de irme para mi casa estuve notando de que no me dio felicidad en el momento, ni ahora y ni siquiera en el proceso de pasado de periodos, y lo peor, después de tanto esfuerzo."
+    },
+    {
+      "id": 2,
+      "user": "Cada que tenía trabajos que hacer, las hacía, yo siento obligación de hacer las cosas y hacerlas bien, pero al momento de la entrega y las calificaciones no me pone feliz, antes me siento como que es algo mas de mi vida y ya está."
+    },
+    {
+      "id": 3,
+      "user": "Soy buen estudiante, soy de los mejores de salón, pero en el interior me siento vacío, por tal razón siento que es raro que el logro para mí no refleja una alegría en la cual presumir y estar orgulloso."
+    },
+    {
+      "id": 4,
+      "user": "Lo que más me aterra es la pregunta que viene después; ¿ahora qué? Si la meta máxima que me mantenía en pie cada mañana resultó ser una ilusión que no me quitó esta sensación de insatisfacción, ya no sé qué se supone que deba buscar o para qué carajos sigo esforzándome."
+    },
+    {
+      "id": 5,
+      "user": "Tal vez unas vacaciones puedan asimilar el cambio y ya que llega diciembre aprovecharlo, pero temo a que entre a la universidad y que los logros que consiga me deje igual de seco, es decir, llegué a la meta que tanto quería y la vista desde aquí es una porquería, es mirar a la nada."
+    }
+  ]
+}

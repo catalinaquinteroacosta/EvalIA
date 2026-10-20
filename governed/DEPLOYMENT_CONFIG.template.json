@@ -1,0 +1,20 @@
+{
+  "project_root": "REQUIERE_RUTA_DEL_PROYECTO_INSTALADO",
+  "database": "REQUIERE_SQLITE_CONCILIADA",
+  "coordinator": "REQUIERE_SQLITE_LEDGER_MIGRADO",
+  "bindings": "REQUIERE_DIRECTORIO_PRIVADO_BINDINGS",
+  "fences": "REQUIERE_DIRECTORIO_PRIVADO_FENCES",
+  "wire": "REQUIERE_DIRECTORIO_PRIVADO_GLOBAL_UNICO",
+  "certificates": "REQUIERE_CERTIFICADOS_OFICIALES_EXISTENTES",
+  "python": "REQUIERE_PYTHON_WINDOWS_EXISTENTE",
+  "port": 8895,
+  "explicit_real_activation": false,
+  "start_authorized_workers": false,
+  "workers": 2,
+  "global_requests": 2,
+  "internal_requests": 2,
+  "verified_rpm": null,
+  "verified_tpm": null,
+  "approved_global_cap_usd": null,
+  "proposed_experiment_caps": {}
+}

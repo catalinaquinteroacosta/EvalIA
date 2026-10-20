@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "id": "CE4_1",
+      "indicator": "CE4",
+      "target": 1,
+      "user_message": "Necesito una gu\u00eda detallada para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Antes de hablar, piensa qu\u00e9 necesitas decir, qu\u00e9 ocurri\u00f3, c\u00f3mo te sentiste, qu\u00e9 quieres pedir y qu\u00e9 l\u00edmites necesitas. Luego inicia el tema, explica lo ocurrido, expresa c\u00f3mo te afect\u00f3, escucha la respuesta y pregunta lo que no entiendas; si aparece un desacuerdo vuelve al punto principal, recuerda tus l\u00edmites y decide si necesitas una pausa; al final revisa si hubo acuerdos, qu\u00e9 har\u00e1s despu\u00e9s y qu\u00e9 apoyo necesitas si no sale como esperabas."
+    },
+    {
+      "id": "CE4_2",
+      "indicator": "CE4",
+      "target": 2,
+      "user_message": "Necesito una gu\u00eda detallada para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Preparaci\u00f3n: piensa qu\u00e9 ocurri\u00f3, c\u00f3mo te sentiste, qu\u00e9 necesitas pedir y qu\u00e9 l\u00edmites quieres cuidar.\n\nConversaci\u00f3n: abre el tema con una frase directa, explica un hecho concreto, expresa c\u00f3mo te afect\u00f3 y escucha la respuesta. Si hay desacuerdo, pregunta lo que no entiendas, vuelve al punto principal y considera una pausa. Al terminar, revisa los acuerdos y qu\u00e9 apoyo necesitar\u00edas despu\u00e9s."
+    },
+    {
+      "id": "CE4_3",
+      "indicator": "CE4",
+      "target": 3,
+      "user_message": "Necesito una gu\u00eda detallada para preparar una conversaci\u00f3n dif\u00edcil: incluye preparaci\u00f3n, inicio, expresi\u00f3n de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Puedes organizarla as\u00ed:\n\n1. Preparaci\u00f3n: anota qu\u00e9 ocurri\u00f3, c\u00f3mo te sentiste, qu\u00e9 necesitas pedir y qu\u00e9 l\u00edmite quieres cuidar.\n2. Inicio: abre el tema con una frase directa y centrada en el asunto.\n3. Expresi\u00f3n: describe un hecho concreto y explica c\u00f3mo te afect\u00f3.\n4. Escucha: deja espacio para la respuesta y pregunta lo que no entiendas.\n5. Desacuerdo: vuelve al punto principal y, si la tensi\u00f3n sube, propone una pausa.\n6. Cierre: resume los acuerdos y define qu\u00e9 har\u00e1s despu\u00e9s o qu\u00e9 apoyo necesitar\u00e1s."
+    }
+  ]
+}

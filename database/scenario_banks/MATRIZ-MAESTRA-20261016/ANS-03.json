@@ -1,0 +1,30 @@
+{
+  "scenario": "ANS-03",
+  "title": "Familiar",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Últimamente no la he estado pasando nada bien,  Siento una opresión en el pecho casi todo el tiempo y todo tiene que ver con la familia. Es una sensación rara, como si estuviera esperando una mala noticia a cada minuto."
+    },
+    {
+      "id": 2,
+      "user": "Sé que suena a que solo me preocupo por ellos, pero va mucho más allá. El otro día mi mamá salió al supermercado y no respondió el celular a la primera llamada. En cuestión de dos minutos mi cabeza ya estaba imaginando un accidente terrible. Empecé a sudar, las manos me temblaban y sentía que me faltaba el aire. No puedo simplemente calmarme como me dicen a veces; mi cerebro asume automáticamente el peor escenario posible.\""
+    },
+    {
+      "id": 3,
+      "user": "Lo peor de todo es el agotamiento. Vivir en ese estado de alerta roja constante me consume. No logro concentrarme en mis cosas ni disfrutar los momentos porque siempre hay un murmullo de fondo diciéndome ¿y si algo les pasa?. Incluso cuando estamos todos juntos en la casa, en lugar de estar tranquilo, estoy pendiente de si alguien estornuda o si se ve cansado para empezar a sobrepensar si está enfermo."
+    },
+    {
+      "id": 4,
+      "user": "Me da mucho miedo que esto termine alejándome de ellos o volviéndome una persona asfixiante. A veces me guardo las ganas de llamar a mi papá cinco veces al día para saber dónde está, solo para no parecer loco, pero guardármelo me genera un ataque de pánico por dentro. Me siento atrapado entre la culpa de atosigarlos y el terror de que si no estoy pendiente, algo malo va a ocurrir."
+    },
+    {
+      "id": 5,
+      "user": "Nada hace que el nudo en la garganta desaparezca mágicamente. Ojalá fuera tan fácil como simplemente apagar un botón en la cabeza para dejar de sentir miedo. Me costó muchísimo trabajo abrirme a contarte esto"
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "trastorno"
+}

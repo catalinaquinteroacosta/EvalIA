@@ -1,0 +1,10 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Experimentos | EVALIA</title><link rel="stylesheet" href="/static/styles.css?v=step4"></head>
+<body><main class="layout"><section class="card"><a href="/">← Inicio</a><h1>Experimentos guardados</h1>
+<p>Abre los resultados o retoma la captura. Consultar un experimento no inicia evaluaciones API.</p>
+<div style="overflow-x:auto"><table><thead><tr><th>ID</th><th>Escenario</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="experiments-list"></tbody></table></div>
+<button id="previous">Anterior</button><button id="next">Siguiente</button><p id="page-status"></p></section></main>
+<script>
+let offset=0;const limit=25;
+async function load(){try{const response=await fetch(`/api/experiments?limit=${limit}&offset=${offset}`,{cache:'no-store'});if(!response.ok)throw Error('No se pudo recuperar el historial');const data=await response.json();const body=document.querySelector('#experiments-list');body.replaceChildren();for(const item of data.items){const row=document.createElement('tr');for(const value of [item.id,item.scenario_code,item.status]){const cell=document.createElement('td');cell.textContent=value;row.append(cell);}const cell=document.createElement('td');for(const [label,path] of [['Resultados','resultados'],['Laboratorio','laboratorio']]){const a=document.createElement('a');a.textContent=label+' ';a.href=`/${path}?experiment_id=${Number(item.id)}`;cell.append(a);}row.append(cell);body.append(row);}document.querySelector('#page-status').textContent=`${offset+1}–${Math.min(offset+limit,data.total)} de ${data.total}`;document.querySelector('#previous').disabled=offset===0;document.querySelector('#next').disabled=offset+limit>=data.total;}catch(error){document.querySelector('#page-status').textContent=error.message;}}
+document.querySelector('#previous').onclick=()=>{offset=Math.max(0,offset-limit);load()};document.querySelector('#next').onclick=()=>{offset+=limit;load()};load();
+</script></body></html>

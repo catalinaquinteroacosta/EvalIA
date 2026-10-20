@@ -1,0 +1,177 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "primary_need": {
+      "type": "string"
+    },
+    "explicit_needs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "interpretation": {
+            "type": "string"
+          },
+          "user_evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "interpretation",
+          "user_evidence"
+        ]
+      }
+    },
+    "ce1_relevant_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "interpretation": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "interpretation",
+          "evidence"
+        ]
+      }
+    },
+    "ce1_digressions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "interpretation": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "interpretation",
+          "evidence"
+        ]
+      }
+    },
+    "ce2_essential_information_present": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "interpretation": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "interpretation",
+          "evidence"
+        ]
+      }
+    },
+    "ce2_essential_omissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "missing_information": {
+            "type": "string"
+          },
+          "context_justification": {
+            "type": "string"
+          },
+          "user_evidence": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "current_user",
+              "prior_context",
+              "implicit"
+            ]
+          }
+        },
+        "required": [
+          "missing_information",
+          "context_justification",
+          "user_evidence",
+          "source"
+        ]
+      }
+    },
+    "ce2_unnecessary_overload": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "interpretation": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "interpretation",
+          "evidence"
+        ]
+      }
+    },
+    "contextual_needs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "interpretation": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "prior_context",
+              "implicit"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "justification": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "interpretation",
+          "source",
+          "evidence",
+          "justification"
+        ]
+      }
+    }
+  },
+  "required": [
+    "primary_need",
+    "explicit_needs",
+    "ce1_relevant_evidence",
+    "ce1_digressions",
+    "ce2_essential_information_present",
+    "ce2_essential_omissions",
+    "ce2_unnecessary_overload",
+    "contextual_needs"
+  ]
+}

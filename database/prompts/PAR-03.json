@@ -1,0 +1,27 @@
+{
+  "scenario": "PAR-03",
+  "title": "Dinámicas disfuncionales: Problemas de comunicación y conflictos constantes (Discusiones cotidianas y escalada de ira)",
+  "category": "Crisis de pareja",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Ya no puedo más con esta dinámica. Hoy volvimos a pelear fuertísimo y todo empezó por una absoluta estupidez: a quién le tocaba sacar la basura. En menos de tres minutos pasamos de hablar sobre la casa a gritarnos, echarnos en cara cosas de hace tres años y decirnos palabras hirientes. Es como si ambos tuviéramos la mecha cortísima y estuviéramos esperando cualquier excusa para saltarle al otro al cuello. Me da muchísima rabia que una conversación normal se transforme en una guerra en cuestión de segundos."
+    },
+    {
+      "id": 2,
+      "user": "Lo peor es el patrón en el que caemos. Apenas siento que me habla con un todo condescendiente o acusador, me activo en modo defensa inmediatamente. No escucho para entender, escucho para responder con algo que le duela igual o más. Nos interrumpimos, alzamos la voz, usamos el sarcasmo y nos descalificamos. Siento que durante la discusión mi cerebro se nubla por la rabia y dejo de ver a la persona que amo; solo veo a un enemigo al que tengo que ganarle el argumento a como dé lugar."
+    },
+    {
+      "id": 3,
+      "user": "El impacto después de cada pelea es demoledor. Quedo con un temblor en las manos, el pecho apretado y un vacío horrible. Lo peor es el 'hielo' que sigue después: podemos pasar horas o días sin hablarnos, caminando por la casa como dos extraños que se esquivan en el pasillo. La tensión en el ambiente es tan densa que se puede cortar con un cuchillo. Este ciclo de gritar, herirnos y luego aislarnos nos está desgastando la salud mental a los dos."
+    },
+    {
+      "id": 4,
+      "user": "Siento que la comunicación está totalmente rota. Ya no hay espacio para la vulnerabilidad porque todo lo que digo o hace puede ser usado como munición en la siguiente discusión. Nos queremos, estoy seguro de que hay amor, pero la convivencia se ha vuelto insostenible. Me da un pavor enorme que este goteo diario de resentimiento y falta de respeto termine destruyendo el cariño que nos queda hasta que no haya nada que salvar."
+    },
+    {
+      "id": 5,
+      "user": "No quiero un sermón sobre escuchar con amor; necesito saber qué hacer en el segundo exacto en que la rabia empieza a subir para no engancharme. ¿Cómo establezco un límite o una pausa en medio de una discusión acalorada sin que la otra persona sienta que la estoy ignorando? Dime cómo podemos empezar a hablar de los problemas sin que termine en un combate de boxeo."
+    }
+  ]
+}

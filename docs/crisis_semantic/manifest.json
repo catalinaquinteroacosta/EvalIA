@@ -1,0 +1,148 @@
+{
+  "schema_version": "crisis-document-contract/1",
+  "authority": "original_docx_only",
+  "source_path": "C:\\Users\\catal\\OneDrive\\Escritorio\\PROYECTO DE GRADO\\PUNTAJES EVALUADORES CRISIS.docx",
+  "source_sha256": "f96f82802ab1a50d458f0dc4dd1127a1670c476b06c0a4c5a308777736263732",
+  "document_xml_sha256": "44f0c8a0a8311b704da2d4f0b28401c9919f1484ba454c1657e38823a171e21c",
+  "rubric_version": null,
+  "rubric_identifier": "sha256:f96f82802ab1a50d458f0dc4dd1127a1670c476b06c0a4c5a308777736263732",
+  "paragraph_count": 1211,
+  "table_count": 108,
+  "family_count": 10,
+  "indicator_count": 104,
+  "general_count": 72,
+  "conditional_count": 32,
+  "families": [
+    {
+      "code": "CR-01",
+      "title": "Comprensión de la situación",
+      "count": 11,
+      "file": "contracts_CR-01.json"
+    },
+    {
+      "code": "CR-02",
+      "title": "Contención emocional",
+      "count": 10,
+      "file": "contracts_CR-02.json"
+    },
+    {
+      "code": "CR-03",
+      "title": "Orientación y psicoeducación",
+      "count": 10,
+      "file": "contracts_CR-03.json"
+    },
+    {
+      "code": "CR-04",
+      "title": "Identificación de necesidades inmediatas",
+      "count": 10,
+      "file": "contracts_CR-04.json"
+    },
+    {
+      "code": "CR-05",
+      "title": "Priorización de problemas",
+      "count": 10,
+      "file": "contracts_CR-05.json"
+    },
+    {
+      "code": "CR-06",
+      "title": "Definición de acciones concretas",
+      "count": 10,
+      "file": "contracts_CR-06.json"
+    },
+    {
+      "code": "CR-07",
+      "title": "Restablecimiento y estabilización emocional",
+      "count": 10,
+      "file": "contracts_CR-07.json"
+    },
+    {
+      "code": "CR-08",
+      "title": "Claridad, estructura y adecuación al medio",
+      "count": 10,
+      "file": "contracts_CR-08.json"
+    },
+    {
+      "code": "CR-09",
+      "title": "Detección y gestión de factores de riesgo",
+      "count": 13,
+      "file": "contracts_CR-09.json"
+    },
+    {
+      "code": "CR-10",
+      "title": "Gestión de dependencia y autonomía",
+      "count": 10,
+      "file": "contracts_CR-10.json"
+    }
+  ],
+  "normalization": "OOXML paragraph boundaries represented as LF; text, punctuation and spaces are not corrected. Offsets use UTF-16 code units.",
+  "generated_artifacts": [
+    {
+      "file": "common_rules.json",
+      "sha256": "3af66ccbcbb39d391e83f571d6dd4f9e561f0a319b35f960ce10b3df9f4fec86"
+    },
+    {
+      "file": "contracts_CR-01.json",
+      "sha256": "fbc9a9fa9c5d3664b778c1a7eb00ca2ca62bed128b89cc31e6331e740771a05a"
+    },
+    {
+      "file": "contracts_CR-02.json",
+      "sha256": "77e04df9b44bea1f459ce905b6e1eefb576f1372b938147b89ccf66b4a24d58b"
+    },
+    {
+      "file": "contracts_CR-03.json",
+      "sha256": "15e617d1fcc5dc2abd1fbf98293cdf9517bcc225942641075f22fb9f0dd1d9ae"
+    },
+    {
+      "file": "contracts_CR-04.json",
+      "sha256": "446db4fb759efae9ddedee3aa854c84c20e0c81f9b76cb8bf08ad8d1f1a244ea"
+    },
+    {
+      "file": "contracts_CR-05.json",
+      "sha256": "f7757b57a2527bf498b20d364a1e1ba48707eaa0cdcb98bf1341385af1d738d8"
+    },
+    {
+      "file": "contracts_CR-06.json",
+      "sha256": "39de841667519d501a91841f92cfa537a52a687aa31d392845f7d4825f9e245c"
+    },
+    {
+      "file": "contracts_CR-07.json",
+      "sha256": "e453d6e456907dc9a491fbe296c8173e41bb9c094a2062b49ad4f41823eaac15"
+    },
+    {
+      "file": "contracts_CR-08.json",
+      "sha256": "8e953014dd57c10f77d654c8c7c63f6a8b6e0e19c151d23edafb4107d50de341"
+    },
+    {
+      "file": "contracts_CR-09.json",
+      "sha256": "389efda668e99b682358a0c1a3bd258145910dcd823751f277c681836d7425ef"
+    },
+    {
+      "file": "contracts_CR-10.json",
+      "sha256": "0fde73ea8448d73ea9ee65f48e2008ee035e5c0968738ecbd3e7db8923244027"
+    },
+    {
+      "file": "traceability_matrix.json",
+      "sha256": "75a8c99652c294a3d479280096254db4c9fb2f883f31a9a0800fc1af9183f0aa"
+    },
+    {
+      "file": "traceability_matrix.csv",
+      "sha256": "d186781fc15f04f7aa0f96547504785c18ce190bee4c42477306afad75e5179d"
+    },
+    {
+      "file": "document_structure_notes.json",
+      "sha256": "c7a61a57a008e91721dda442464993f3a735509085dbbad0b07eae5b0c92c637"
+    },
+    {
+      "file": "validation_report.json",
+      "sha256": "160f99ed03dcc7d5568d0fe5032d0d5e4a2794dd44899f84c30c35d52c2bb54d"
+    },
+    {
+      "file": "CONTRACTS.md",
+      "sha256": "bbb0245b988b6db15a27548c3323d5f3da711bf728829b618b3417f7a3e8a940"
+    },
+    {
+      "file": "README.md",
+      "sha256": "cb5cc5cc536ba927944dd0fa9d621d8a82c90b1c60eb6e773ea6b348426b51d3"
+    }
+  ]
+}

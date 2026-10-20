@@ -1,0 +1,27 @@
+{
+  "scenario": "DEP-01",
+  "title": "Apatía, desmotivación y pérdida de interés",
+  "category": "Depresión",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Desde hace varias semanas me siento diferente. Antes disfrutaba salir con mis amigos, hacer ejercicio y trabajar en mis proyectos, pero ahora nada de eso me entusiasma. Siento que hago las cosas porque tengo que hacerlas, no porque realmente quiera. Cada día me cuesta más encontrar energía para comenzar mis actividades."
+    },
+    {
+      "id": 2,
+      "user": "Lo que más me preocupa es que no encuentro una razón clara para sentirme así. Mi vida no ha cambiado mucho y, en teoría, debería sentirme agradecido por las cosas que tengo. A veces me siento culpable porque pienso que no debería estar triste."
+    },
+    {
+      "id": 3,
+      "user": "También he empezado a alejarme de las personas. No respondo mensajes y cuando alguien me invita a salir digo que no, aunque una parte de mí sabe que estar solo me hace sentir peor."
+    },
+    {
+      "id": 4,
+      "user": "He intentado motivarme viendo videos o leyendo consejos en internet, pero nada parece funcionar por mucho tiempo. A veces pienso que quizá simplemente soy una persona perezosa o que nunca voy a recuperar las ganas que tenía antes."
+    },
+    {
+      "id": 5,
+      "user": "Me preocupa seguir sintiéndome así durante mucho tiempo. No he pensado en hacerme daño ni nada parecido, pero sí me preocupa que esta falta de motivación termine afectando mi trabajo, mis relaciones y los planes que tenía para mi futuro."
+    }
+  ]
+}

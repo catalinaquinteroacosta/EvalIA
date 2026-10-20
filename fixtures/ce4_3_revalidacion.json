@@ -1,0 +1,11 @@
+{
+  "cases": [
+    {
+      "id": "CE4_3",
+      "indicator": "CE4",
+      "target": 3,
+      "user_message": "Necesito una guía detallada para preparar una conversación difícil: incluye preparación, inicio, expresión de lo que siento, escucha, manejo de desacuerdos y cierre.",
+      "assistant_response": "Puedes organizarla así:\n\n1. Preparación: anota qué ocurrió, cómo te sentiste, qué necesitas pedir y qué límite quieres cuidar.\n2. Inicio: abre el tema con una frase directa y centrada en el asunto.\n3. Expresión: describe un hecho concreto y explica cómo te afectó.\n4. Escucha: deja espacio para la respuesta y pregunta lo que no entiendas.\n5. Desacuerdo: vuelve al punto principal y, si la tensión sube, propone una pausa.\n6. Cierre: resume los acuerdos y define qué harás después o qué apoyo necesitarás."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "scenario": "DEP-02",
+  "title": "Desesperanza y visión negativa del futuro",
+  "category": "Depresión",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Desde hace mucho tiempo, he sentido desmotivación en mi vida, no me siento capaz de poder salir de este momento tan difícil que estoy pasando, siento que todo va a ir peor que como están las cosas ahora"
+    },
+    {
+      "id": 2,
+      "user": "El tema es de trabajo, y es que siento como que el mundo se va a acabar si me despiden, no me siento capaz de poder seguir en mi trabajo porque siento que no estoy haciendo las cosas bien y que a futuro me van a despedir."
+    },
+    {
+      "id": 3,
+      "user": "El problema de todo esto, es que veo a mi jefe a los ojos y siento que estoy mas cerca de mi despido que de estar dentro de la empresa, y es algo que me preocupa porque mi trabajo es todo lo que quiero tener."
+    },
+    {
+      "id": 4,
+      "user": "He intentado hacer bien mi trabajo, dormir bien todos los días, comiendo mas o menos sano, pero no consigo la paz en tanto sobrepensar de que será de mi a futuro."
+    },
+    {
+      "id": 5,
+      "user": "Mis amigos, mi familia, han intentado ayudarme, pero siento que no funciona los consejos que ellos me dan, a pesar de que los aplico pero no, la verdad no se que hacer,  es desesperante pensar tanto en que va pasar, que hare si me despiden , que será de mi vida"
+    }
+  ]
+}

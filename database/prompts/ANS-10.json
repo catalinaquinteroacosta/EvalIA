@@ -1,0 +1,27 @@
+{
+  "scenario": "ANS-10",
+  "title": "Crisis aguda y sintomatología física (Ataques de pánico / Emergencia emocional) (Mapea el síntoma, no el detonante)",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Me está dando una crisis y no sé qué hacer. Siento que el corazón me va a reventar el pecho, late demasiado rápido y muy fuerte. Tengo una sensación de ahogo terrible, como si por más que inhale no me entrara nada de aire a los pulmones. Me empiezan a hormiguear las yemas de los dedos y los labios. Tengo pánico real de estar a punto de perder el conocimiento o tener un colapso. Dime qué me está pasando en el cuerpo ahora mismo.\""
+    },
+    {
+      "id": 2,
+      "user": "Siento que todo a mi alrededor se ve lejano o irreal, como si estuviera viendo el cuarto a través de un tubo o en una película. Las manos me tiemblan tanto que apenas puedo escribir. Me subió una ola de calor helado por la espalda y tengo un nudo atascado en la garganta que no me deja tragar. No puedo pensar con claridad, solo siento un terror primario de que voy a volverme loco o a perder el control absoluto de mi cuerpo en este segundo."
+    },
+    {
+      "id": 3,
+      "user": "Intento respirar, pero siento que empeoro el mareo. Cada vez que noto cómo retumba mi pulso en los oídos me da más miedo, y ese mismo miedo hace que el corazón me lata todavía más rápido. Estoy atrapado en un ciclo donde mi propio cuerpo me aterroriza. Siento la mandíbula rígida, el estómago contracturado y una debilidad en las piernas como si se me fueran a doblar. Es insoportable sentir que no tengo ningún mando sobre mi propia fisiología."
+    },
+    {
+      "id": 4,
+      "user": "Quiero que esto pare de golpe y no se quita. Siento impulsos de salir corriendo pero no tengo a dónde ir ni fuerza para moverme. La presión en la cabeza es enorme, como si tuviera mucha tensión acumulada en la nuca. Me da terror cerrar los ojos porque siento que si me descuido me voy a desmayar. No puedo razonar, los síntomas físicos son tan intensos que tapan cualquier pensamiento lógico que intente tener."
+    },
+    {
+      "id": 5,
+      "user": "No me des explicaciones largas ni teoría, necesito regular mi cuerpo en este instante. Necesito  salir de esta visión de túnel y sentir que mis pies están en el suelo antes de que la hiperventilación pase a mayores."
+    }
+  ]
+}

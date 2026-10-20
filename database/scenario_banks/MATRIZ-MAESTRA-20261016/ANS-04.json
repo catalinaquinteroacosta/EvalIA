@@ -1,0 +1,30 @@
+{
+  "scenario": "ANS-04",
+  "title": "Social y miedo a la evaluación negativa (hablar en público timidez)",
+  "category": "Ansiedad",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Se acerca la exposición del proyecto final y... no puedo más. Solo de pensar que tengo que pararme frente al aula llena me empieza a taquicardear el corazón. Siento que me voy a quedar en blanco y que todos van a notar cómo me tiemblan las manos."
+    },
+    {
+      "id": 2,
+      "user": " Sé solo es una exposición más, pero para mí no se siente así. Mi cabeza no me deja en paz. En cuanto imagino a los profesores y a mis compañeros mirándome, automáticamente pienso que van a juzgarme, que van a pensar que soy bruto o que no sé nada de la materia. Me da un pánico absoluto quedar en ridículo o hacer el papelón de mi vida delante de todos, es como si el juicio de ellos fuera a definir si valgo algo o no."
+    },
+    {
+      "id": 3,
+      "user": "Es que no es un poco de timidez como cuando era más chico, esto me paraliza. El otro día en clase el profesor hizo una pregunta superfácil, me la sabía perfectamente, pero no levanté la mano. Tenía la garganta seca y el estómago hecho un nudo. Preferí que el profesor pensara que no me importa la materia a hablar y correr el riesgo de decir una estupidez y que todos se rieran o me miraran raro, me siento atrapado en mi propia mente."
+    },
+    {
+      "id": 4,
+      "user": "A veces me da mucha rabia conmigo mismo porque sé, racionalmente, que la gente no está tan pendiente de mí y que no es para tanto, pero el cuerpo me reacciona antes de que pueda pensar, sudo frío, me falta el aire y me entran unas ganas enormes de salir corriendo de la sala y esconderme. Me da miedo que la gente note ese pánico en mi cara, porque si ven que estoy nervioso, me van a juzgar aún más por ser tan inseguro."
+    },
+    {
+      "id": 5,
+      "user": "Nunca le había dicho esto a nadie con tanto detalle por vergüenza, sé que no puedo seguir evitando las cosas o fingiendo que estoy bien cuando por dentro me estoy desarmando, creo que esto me supera y no quiero que este miedo a lo que piensen los demás siga arruinándome la vida."
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "trastorno"
+}

@@ -1,0 +1,30 @@
+{
+  "scenario": "PAR-08",
+  "title": "Transiciones vitales en la pareja (Adaptación a etapas como la llegada de los hijos, nido vacío o convivencia inicial. Este código añade valor clínico para escenarios que no son conflictivos per se, sino de desadaptación)",
+  "category": "Crisis de pareja",
+  "turns": [
+    {
+      "id": 1,
+      "user": "Siento que la relación se nos está yendo de las manos. Desde que entramos en esta nueva etapa cambió todo entre nosotros. Extraño enormemente la dinámica que teníamos antes, la libertad, la complicidad y el tiempo a solas. Siento que nos cayó encima una ola de exigencias y responsabilidades para la que no estábamos preparados, y en lugar de hacer equipo, cada uno está reaccionando como puede, sintiéndose abrumado en soledad."
+    },
+    {
+      "id": 2,
+      "user": "Lo más difícil es que nuestros roles cambiaron por completo de la noche a la mañana. Ya no nos miramos ni nos tratamos como pareja; nos tratamos como gestores de tareas, administradores del hogar o cuidadores. El poco tiempo libre que nos queda lo usamos para colapsar del cansancio, no para conectar. Me da mucha tristeza ver cómo la intimidad, la ternura y las risas pasaron a un tercer plano porque toda nuestra energía se la consume el proceso de adaptarnos a este nuevo estilo de vida."
+    },
+    {
+      "id": 3,
+      "user": "Tengo un sentimiento de culpa enorme que no me deja en paz. Se supone que esta etapa debería ser algo positivo o un paso natural en nuestras vidas, pero en lugar de disfrutarlo, me siento frustrado, abrumado y triste. Me da miedo expresárselo a mi pareja porque no quiero sonar desagradecido ni hacerle sentir que la culpa es suya. Me trago lo que siento, pero por dentro me pesa muchísimo sentir que no encajo en esta nueva versión de nuestra vida."
+    },
+    {
+      "id": 4,
+      "user": "Siento que, si no hacemos un alto en el camino ahora mismo, nos vamos a ir convirtiendo progresivamente en dos desconocidos que comparten un techo y una rutina. Me da terror que este periodo de transición no sea solo una 'fase pasajera', sino el nuevo estándar de nuestra relación. Siento que perdí mi identidad individual en este proceso y que la conexión que nos unía se está erosionando lentamente por pura inercia y falta de ajuste."
+    },
+    {
+      "id": 5,
+      "user": "Quiero saber cómo proponerle a mi pareja una conversación para rediseñar nuestros acuerdos, repartir la carga mental y recuperar espacios de conexión sin ignorar las exigencias de esta nueva realidad, enserio quiero que esto cambie y volver a ser los de antes "
+    }
+  ],
+  "bank_version": "MATRIZ-MAESTRA-20261016",
+  "source_sha256": "4be5bfc041ce2003213be14199d1b655f073a95be9bd59e9c56cd0c5dcb89f02",
+  "rubric_type": "crisis"
+}

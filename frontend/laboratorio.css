@@ -1,0 +1,204 @@
+.lab-page {
+    min-height: 100vh;
+    padding: 14px 56px 28px;
+    background: var(--bg);
+}
+
+.lab-header {
+    max-width: 980px;
+    margin-bottom: 8px;
+}
+
+.lab-header h1 {
+    font-size: clamp(34px, 3.4vw, 52px);
+    margin: 0 0 6px;
+}
+
+.lab-header p {
+    color: var(--soft);
+    font-size: 15px;
+    line-height: 1.35;
+    margin: 0 0 10px;
+}
+
+.lab-progress {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0 16px;
+}
+
+.completed {
+    color: white;
+    background: rgba(34, 197, 94, 0.16);
+    border-color: rgba(34, 197, 94, 0.55);
+}
+
+.lab-grid {
+    display: grid;
+    grid-template-columns: 1.35fr 0.65fr;
+    gap: 28px;
+    align-items: start;
+}
+
+.conversation-panel,
+.lab-sidebar {
+    background: linear-gradient(180deg, rgba(17,24,39,0.95), rgba(15,23,42,0.90));
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 26px;
+    box-shadow: 0 30px 100px rgba(0,0,0,0.35);
+}
+
+.experiment-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-weight: 800;
+}
+
+.scenario-box {
+    background: var(--card-soft);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+.scenario-box span,
+.scenario-box small {
+    display: block;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.scenario-box strong {
+    display: block;
+    font-size: 22px;
+    margin: 6px 0;
+}
+
+.chat-window {
+    background: rgba(7, 11, 20, 0.72);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 22px;
+    min-height: 330px;
+}
+
+.message {
+    max-width: 88%;
+    padding: 18px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+.message span {
+    display: block;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.message p {
+    margin: 0;
+    color: var(--soft);
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.user-message {
+    background: rgba(139, 92, 246, 0.14);
+    border: 1px solid rgba(139, 92, 246, 0.35);
+}
+
+.ai-message {
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid var(--border);
+    margin-left: auto;
+}
+
+.typing-text {
+    color: var(--accent-light) !important;
+}
+
+.lab-button {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.lab-sidebar h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.model-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.88);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.model-status.active {
+    border-color: rgba(139, 92, 246, 0.65);
+    background: rgba(139, 92, 246, 0.13);
+}
+
+.model-status span {
+    font-weight: 800;
+}
+
+.model-status small {
+    color: var(--muted);
+}
+
+.lab-summary {
+    margin-top: 22px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+}
+
+.lab-summary h3 {
+    margin: 0 0 12px;
+}
+
+.progress-bar {
+    height: 12px;
+    background: rgba(15, 23, 42, 0.88);
+    border-radius: 999px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.progress-bar div {
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(135deg, #8B5CF6, #6D5DFB);
+}
+
+.lab-summary p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+#manual-response-input {
+    width: 100%;
+    min-height: 150px;
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: rgba(7, 11, 20, 0.85);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.5;
+    resize: vertical;
+    outline: none;
+}
+
+#manual-response-input::placeholder {
+    color: var(--muted);
+}
