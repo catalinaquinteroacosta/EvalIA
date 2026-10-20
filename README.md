@@ -47,9 +47,9 @@ Se conservan los evaluadores y contratos versionados: sus nombres o antigüedad 
 ## Verificación
 
 La página principal permite elegir resultados por escenario o abrir `/resultados-globales`.
-Las siete tablas globales comparan las cinco IA por turno y en conjunto para ansiedad,
-depresión, trastornos combinados, cada tipo de crisis y crisis combinadas. Se pueden
-descargar en Excel y CSV o imprimir. Usan las notas consolidadas del lote local;
+Las siete vistas globales comparan las cinco IA por escenario, familia y turno para ansiedad,
+depresión, trastornos combinados, cada tipo de crisis y crisis combinadas. Incluyen
+evolución longitudinal, seguridad consolidada y síntesis de las cinco categorías. Usan las notas consolidadas del lote local;
 una instalación nueva sin ese lote muestra el estado sin datos.
 
 El porcentaje se calcula primero por familia, después por respuesta y finalmente
@@ -65,4 +65,4 @@ Estos resúmenes son descriptivos; no realizan pruebas de significación estadí
 
 Las pruebas históricas que requieren recibos, documentos fuente o bases de campañas anteriores necesitan esos archivos locales. Dentro de la selección anterior, dos casos históricos se omiten explícitamente cuando falta su evidencia original; los demás son portables. No se necesitan credenciales ni llamadas a servicios externos.
 
-Consulta [las notas de preparación del repositorio](docs/REPOSITORIO.md) para conocer la limpieza y la recuperación de archivos históricos.
+Consulta [la organización del repositorio](docs/REPOSITORIO.md) para conocer la función de los archivos y los límites entre código y datos locales.

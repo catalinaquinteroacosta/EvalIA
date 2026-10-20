@@ -15,7 +15,7 @@ async function protectedSnapshot(directory = WORKSPACE) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const path = resolve(directory, entry.name), rel = relative(WORKSPACE, path).replaceAll('\\', '/');
     // Never inspect credentials, dependency installs or git internals.
-    if (authorized.some(a => rel === a || rel.startsWith(a + '/')) || ['.git', 'venv', 'node_modules'].includes(entry.name) || /^\.env(?:\.|$)/.test(entry.name) || ['.aws', '.codex', '.agents'].includes(entry.name)) continue;
+    if (authorized.some(a => rel === a || rel.startsWith(a + '/')) || entry.name.startsWith('.') || ['venv', 'node_modules'].includes(entry.name)) continue;
     if (entry.isDirectory()) Object.assign(result, await protectedSnapshot(path));
     else if (entry.isFile()) { const s = await stat(path); result[rel] = [s.size, s.mtimeMs]; }
   }

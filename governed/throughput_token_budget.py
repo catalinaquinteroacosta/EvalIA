@@ -1,7 +1,7 @@
 """Offline proxy tokenization with margins; never alters request bodies or output caps."""
 import os,sys,json,math,hashlib
 from pathlib import Path
-HERE=Path('C:\\Users\\catal\\Downloads\\EVALIA_CODEX_PILOTO\\isolated_concurrency_step1_20261016\\high_capacity_candidate_109')
+HERE=Path(__file__).resolve().parents[1]/'isolated_concurrency_step1_20261016/high_capacity_candidate_109'
 sys.path.insert(0,str(HERE/'deps'))
 URL='https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken'
 EXPECTED='446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d'

@@ -1,4 +1,4 @@
-"""Official evaluator worker, owned by Windows/server, not by Codex.
+"""Official evaluator worker managed by the local server.
 No automatic uncertain retry. Configure dependencies once per process.
 """
 import json,hashlib,time,threading,sqlite3
