@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: evalia
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.render_app:create_app --factory --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: EVALIA_RESULTS_URL
+        sync: false
+      - key: EVALIA_RESULTS_SHA256
+        sync: false
+      - key: EVALIA_RESULTS_TOKEN
+        sync: false

@@ -12,6 +12,8 @@
 !/ABRIR_EVALIA_VALIDACION.cmd
 !/CONFIGURAR_CREDENCIAL_LUNA.cmd
 !/run_evalia.py
+!/render.yaml
+!/.python-version
 !/ce_adversarial_preflight.py
 !/export_anxiety_conversations.py
 !/PUNTAJES EVALUADORES ANSIEDAD(20261008-000023).docx
@@ -31,6 +33,7 @@
 !/docs/
 /docs/*
 !/docs/REPOSITORIO.md
+!/docs/RENDER.md
 !/docs/crisis_semantic/
 /docs/crisis_semantic/*
 !/docs/crisis_semantic/manifest.json

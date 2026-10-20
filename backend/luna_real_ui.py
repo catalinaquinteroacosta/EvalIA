@@ -321,10 +321,12 @@ class RealService:
             write(folder/'state.json',state)
 
 def mount(main):
-    service=RealService(main);main.app.state.luna_real_service=service
+    cloud=os.environ.get('EVALIA_CLOUD_RUNTIME_ROOT')
+    service=RealService(main,root=cloud,archive={} if cloud else None);main.app.state.luna_real_service=service
     def local(request):
         origin=request.headers.get('origin')
-        if origin and urlsplit(origin).hostname not in ('localhost','127.0.0.1','::1'):raise HTTPException(403,'Solo se permiten confirmaciones desde la interfaz local')
+        public_origin=getattr(main.app.state,'public_origin',None)
+        if origin and origin.rstrip('/')!=public_origin and urlsplit(origin).hostname not in ('localhost','127.0.0.1','::1'):raise HTTPException(403,'Solo se permiten confirmaciones desde la interfaz de esta instalacion')
     @main.app.get('/api/real/status')
     def status():return service.status()
     @main.app.post('/api/real/prepare')

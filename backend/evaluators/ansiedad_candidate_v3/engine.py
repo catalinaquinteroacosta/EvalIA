@@ -10,7 +10,8 @@ from backend.evaluators.ansiedad_semantic import component_routes,em_component_a
 from .reader_contract import candidate_request
 
 VERSION='ANXIETY-CANDIDATE-20261013-3'
-FROZEN=Path('docs/ansiedad_semantic/closure6_20261013/integral_live/ratification_06')
+ROOT=Path(__file__).resolve().parents[3]
+FROZEN=ROOT/'docs/ansiedad_semantic/closure6_20261013/integral_live/ratification_06'
 
 def verify_frozen():
     freeze=json.loads((FROZEN/'FREEZE.json').read_text(encoding='utf-8'))
@@ -18,7 +19,8 @@ def verify_frozen():
     assert sha256((FROZEN/'code_manifest.json').read_bytes()).hexdigest()==freeze['code_manifest_sha256']
     for name in ['code_manifest.json','files.json']:
         for row in json.loads((FROZEN/name).read_text(encoding='utf-8')):
-            if sha256(Path(row['path']).read_bytes()).hexdigest()!=row['sha256']:
+            source=ROOT/row['path'].replace('\\','/')
+            if sha256(source.read_bytes()).hexdigest()!=row['sha256']:
                 raise ValueError('Frozen dependency changed: '+row['path'])
 
 def evaluate_turn(originals,conversation,model,turn,*,reader,resource_checks=()):

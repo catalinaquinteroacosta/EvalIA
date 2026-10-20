@@ -233,6 +233,9 @@ def signature(config, database):
 
 
 def report(main):
+    archive=getattr(main.app.state,'published_results',None)
+    if archive:
+        return archive.global_results()
     config = getattr(main.app.state, 'direct_recovery_config', None)
     included, excluded, bank = selection(main, config)
     if not config:
@@ -374,6 +377,9 @@ def mount(main):
     def page():return FileResponse(root/'frontend/global_results.html')
     @main.app.get('/api/results/catalog')
     def catalog():
+        archive=getattr(main.app.state,'published_results',None)
+        if archive:
+            return archive.catalog()
         config=getattr(main.app.state,'direct_recovery_config',None)
         included,excluded,bank=selection(main,config)
         return dict(experiments=included,excluded_count=len(excluded),bank=bank,

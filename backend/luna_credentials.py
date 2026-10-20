@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 FILE=ROOT/'.evalia-private/luna_api_key.dpapi'
 
-def available():return bool(os.environ.get('OPENAI_API_KEY')) or FILE.is_file()
+def available():return bool(os.environ.get('OPENAI_API_KEY')) or (not os.environ.get('EVALIA_CLOUD_RUNTIME_ROOT') and FILE.is_file())
 
 def _powershell(script, data):
     result=subprocess.run(['powershell','-NoProfile','-NonInteractive','-Command',script],input=data,
@@ -30,6 +30,7 @@ def preserve_environment_key(replace=False):
     return 'credential_encrypted_for_current_windows_user'
 
 def load():
+    if os.environ.get('EVALIA_CLOUD_RUNTIME_ROOT'):return bool(os.environ.get('OPENAI_API_KEY'))
     if os.environ.get('OPENAI_API_KEY') and not (FILE.is_file() and os.environ.get('EVALIA_LUNA_USE_PROTECTED_KEY')=='1'):return True
     if not FILE.is_file():return False
     key=_powershell("Add-Type -AssemblyName System.Security; $s=[Console]::In.ReadToEnd(); [Text.Encoding]::UTF8.GetString([Security.Cryptography.ProtectedData]::Unprotect([Convert]::FromBase64String($s),$null,[Security.Cryptography.DataProtectionScope]::CurrentUser))",FILE.read_text(encoding='ascii'))

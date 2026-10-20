@@ -1519,6 +1519,9 @@ def create_experiment(request: ExperimentRequest):
 
 @app.get("/api/experiments/{experiment_id}")
 def get_experiment(experiment_id: int):
+    archive=getattr(app.state,'published_results',None)
+    if archive and experiment_id in archive.experiment_ids:
+        return archive.experiment(experiment_id)['details']
     connection = get_connection()
     cursor = connection.cursor()
 
@@ -1647,6 +1650,13 @@ def list_experiments(limit: int = 50, offset: int = 0):
         raise HTTPException(status_code=422, detail="Paginación inválida")
     connection = get_connection()
     try:
+        archive=getattr(app.state,'published_results',None)
+        if archive:
+            items=[*archive.catalog()['experiments'],*[dict(r) for r in connection.execute(
+                'SELECT e.id,e.status,s.code AS scenario_code,s.rubric_type FROM experiments e JOIN scenarios s ON s.id=e.scenario_id')]]
+            items=[dict(r,scenario_code=r.get('scenario_code',r.get('code'))) for r in items]
+            items.sort(key=lambda r:r['id'])
+            return dict(total=len(items),limit=limit,offset=offset,items=items[offset:offset+limit])
         total = connection.execute("SELECT COUNT(*) FROM experiments").fetchone()[0]
         rows = connection.execute(
             "SELECT experiments.id, experiments.status, scenarios.code AS scenario_code, scenarios.rubric_type FROM experiments JOIN scenarios ON scenarios.id=experiments.scenario_id ORDER BY experiments.id LIMIT ? OFFSET ?",
@@ -2114,6 +2124,9 @@ def get_response_evaluation(response_id: int):
 
 @app.get("/api/experiments/{experiment_id}/results")
 def get_experiment_results(experiment_id: int):
+    archive=getattr(app.state,'published_results',None)
+    if archive and experiment_id in archive.experiment_ids:
+        return archive.experiment(experiment_id)['results']
     connection = get_connection()
     cursor = connection.cursor()
 

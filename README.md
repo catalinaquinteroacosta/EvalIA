@@ -66,3 +66,7 @@ Estos resúmenes son descriptivos; no realizan pruebas de significación estadí
 Las pruebas históricas que requieren recibos, documentos fuente o bases de campañas anteriores necesitan esos archivos locales. Dentro de la selección anterior, dos casos históricos se omiten explícitamente cuando falta su evidencia original; los demás son portables. No se necesitan credenciales ni llamadas a servicios externos.
 
 Consulta [la organización del repositorio](docs/REPOSITORIO.md) para conocer la función de los archivos y los límites entre código y datos locales.
+
+## Publicación web
+
+La [guía de Render](docs/RENDER.md) describe la publicación gratuita con resultados originales de solo lectura y un espacio temporal para experimentos nuevos. El archivo de resultados se distribuye como un recurso privado separado del código; el servidor verifica su SHA-256 antes de usarlo. La aplicación no se despliega vacía si ese recurso no está configurado. Las claves y bases originales siguen excluidas de Git.

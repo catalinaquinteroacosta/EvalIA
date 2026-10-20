@@ -14,6 +14,10 @@ def apply(payload, config, database):
             with connect(config['coordinator'])as coordinator:
                 if experiment==72 or not coordinator.execute('select 1 from jobs where experiment=?',(experiment,)).fetchone():return payload
     data=consolidated(config,experiment,database)
+    return present(payload,data)
+
+def present(payload,data):
+    """Present an already consolidated record without accessing a database."""
     payload=deepcopy(payload);groups=defaultdict(list)
     for row in data['rows']:groups[row['response_id']].append(row)
     rubric=payload['experiment']['rubric_type'];rubric={'trastorno':'ansiedad_depresion'}.get(rubric,rubric);engine=EvaluationEngine(rubric);presenter=CriterionPresenter(rubric)

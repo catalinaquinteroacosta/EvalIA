@@ -12,11 +12,11 @@ ROOT = Path(__file__).resolve().parent
 LOCAL_CONFIG = ROOT / '.evalia-private/governed_joint_install_20261017/config.json'
 
 
-def base_app():
+def base_app(database_path=None):
     """Initialize a separate empty local database, never a research database."""
     sys.path.insert(0, str(ROOT / 'backend'))
     from backend import database
-    database.DB_PATH = ROOT / '.evalia-private/local/application.db'
+    database.DB_PATH = Path(database_path).resolve() if database_path else ROOT / '.evalia-private/local/application.db'
     database.DATABASE_DIR = database.DB_PATH.parent
     new_database = not database.DB_PATH.exists()
     sys.modules['database'] = database
